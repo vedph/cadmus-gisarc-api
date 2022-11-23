@@ -78,7 +78,7 @@ namespace CadmusGisarcApi
             {
                 origins = section.AsEnumerable()
                     .Where(p => !string.IsNullOrEmpty(p.Value))
-                    .Select(p => p.Value).ToArray();
+                    .Select(p => p.Value).ToArray()!;
             }
 
             services.AddCors(o => o.AddPolicy("CorsPolicy", builder =>
