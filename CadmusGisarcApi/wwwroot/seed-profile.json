@@ -241,44 +241,12 @@
       "id": "model-types@en",
       "entries": [
         {
-          "id": "it.vedph.metadata",
-          "value": "metadata"
+          "id": "it.vedph.bibliography",
+          "value": "bibliography"
         },
         {
           "id": "it.vedph.categories",
           "value": "categories"
-        },
-        {
-          "id": "it.vedph.external-ids",
-          "value": "external IDs"
-        },
-        {
-          "id": "it.vedph.historical-date",
-          "value": "date"
-        },
-        {
-          "id": "it.vedph.chronotopes",
-          "value": "chronotopes"
-        },
-        {
-          "id": "it.vedph.historical-events",
-          "value": "events"
-        },
-        {
-          "id": "it.vedph.keywords",
-          "value": "keywords"
-        },
-        {
-          "id": "it.vedph.index-keywords",
-          "value": "index keywords"
-        },
-        {
-          "id": "it.vedph.names",
-          "value": "names"
-        },
-        {
-          "id": "it.vedph.note",
-          "value": "note"
         },
         {
           "id": "it.vedph.comment",
@@ -289,16 +257,40 @@
           "value": "references"
         },
         {
-          "id": "it.vedph.bibliography",
-          "value": "bibliography"
+          "id": "it.vedph.external-ids",
+          "value": "external IDs"
         },
         {
-          "id": "it.vedph.ext-bibliography",
-          "value": "ext-bibliography"
+          "id": "it.vedph.gisarc.epi-support",
+          "value": "support"
         },
         {
-          "id": "it.vedph.tiled-text",
-          "value": "tiled text"
+          "id": "it.vedph.gisarc.epi-writing",
+          "value": "writing"
+        },
+        {
+          "id": "it.vedph.gisarc.location",
+          "value": "location"
+        },
+        {
+          "id": "it.vedph.historical-date",
+          "value": "date"
+        },
+        {
+          "id": "it.vedph.index-keywords",
+          "value": "index keywords"
+        },
+        {
+          "id": "it.vedph.metadata",
+          "value": "metadata"
+        },
+        {
+          "id": "it.vedph.names",
+          "value": "names"
+        },
+        {
+          "id": "it.vedph.note",
+          "value": "note"
         },
         {
           "id": "it.vedph.token-text",
@@ -309,16 +301,8 @@
           "value": "text layer"
         },
         {
-          "id": "it.vedph.tiled-text-layer",
-          "value": "tiled text layer"
-        },
-        {
           "id": "fr.it.vedph.apparatus",
           "value": "apparatus fr."
-        },
-        {
-          "id": "fr.it.vedph.chronology",
-          "value": "chronology fr."
         },
         {
           "id": "fr.it.vedph.comment",
@@ -327,14 +311,6 @@
         {
           "id": "fr.it.vedph.orthography",
           "value": "orthography fr."
-        },
-        {
-          "id": "fr.it.vedph.quotations",
-          "value": "quotations fr."
-        },
-        {
-          "id": "fr.it.vedph.witnesses",
-          "value": "witnesses fr."
         }
       ]
     },
@@ -528,23 +504,6 @@
         {
           "id": "org",
           "value": "organization"
-        }
-      ]
-    },
-    {
-      "id": "chronology-tags@en",
-      "entries": [
-        {
-          "id": "bat",
-          "value": "battle"
-        },
-        {
-          "id": "prst",
-          "value": "priesthood"
-        },
-        {
-          "id": "cos",
-          "value": "consulship"
         }
       ]
     },
