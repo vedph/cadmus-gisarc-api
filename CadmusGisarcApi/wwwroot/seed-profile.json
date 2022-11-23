@@ -530,62 +530,6 @@
     },
     "partSeeders": [
       {
-        "id": "seed.it.vedph.metadata"
-      },
-      {
-        "id": "seed.it.vedph.categories",
-        "options": {
-          "maxCategoriesPerItem": 3,
-          "categories": [
-            "language.phonology",
-            "language.morphology",
-            "language.syntax",
-            "literature",
-            "geography"
-          ]
-        }
-      },
-      {
-        "id": "seed.it.vedph.historical-date"
-      },
-      {
-        "id": "seed.it.vedph.chronotopes"
-      },
-      {
-        "id": "seed.it.vedph.historical-events"
-      },
-      {
-        "id": "seed.it.vedph.keywords",
-        "options": {
-          "languages": [
-            "eng",
-            "deu",
-            "ita",
-            "fra",
-            "spa"
-          ]
-        }
-      },
-      {
-        "id": "seed.it.vedph.index-keywords",
-        "options": {
-          "indexIds": [
-            "persons",
-            "places"
-          ],
-          "languages": [
-            "eng",
-            "deu",
-            "ita",
-            "fra",
-            "spa"
-          ]
-        }
-      },
-      {
-        "id": "seed.it.vedph.doc-references"
-      },
-      {
         "id": "seed.it.vedph.bibliography",
         "options": {
           "authors": [
@@ -605,10 +549,61 @@
         }
       },
       {
+        "id": "seed.it.vedph.categories",
+        "options": {
+          "maxCategoriesPerItem": 3,
+          "categories": [
+            "language.phonology",
+            "language.morphology",
+            "language.syntax",
+            "literature",
+            "geography"
+          ]
+        }
+      },
+      {
+        "id": "seed.it.vedph.comment",
+        "options": {
+          "languages": [ "eng", "ita" ],
+          "categories": [ "language.phonology", "language.syntax", "history" ]
+        }
+      },
+      {
+        "id": "seed.it.vedph.doc-references"
+      },
+      {
         "id": "seed.it.vedph.external-ids"
       },
       {
-        "id": "seed.it.vedph.ext-bibliography"
+        "id": "seed.it.vedph.gisarc.epi-support"
+      },
+      {
+        "id": "seed.it.vedph.gisarc.epi-writing"
+      },
+      {
+        "id": "seed.it.vedph.gisarc.location"
+      },
+      {
+        "id": "seed.it.vedph.historical-date"
+      },
+      {
+        "id": "seed.it.vedph.index-keywords",
+        "options": {
+          "indexIds": [
+            "persons",
+            "places"
+          ],
+          "languages": [
+            "eng",
+            "deu",
+            "ita",
+            "fra",
+            "spa"
+          ]
+        }
+      },
+      {
+        "id": "seed.it.vedph.metadata"
       },
       {
         "id": "seed.it.vedph.names"
@@ -624,26 +619,10 @@
         }
       },
       {
-        "id": "seed.it.vedph.comment",
-        "options": {
-          "languages": [ "eng", "ita" ],
-          "categories": [ "language.phonology", "language.syntax", "history" ]
-        }
-      },
-      {
         "id": "seed.it.vedph.token-text"
       },
       {
         "id": "seed.it.vedph.token-text-layer",
-        "options": {
-          "maxFragmentCount": 3
-        }
-      },
-      {
-        "id": "seed.it.vedph.tiled-text"
-      },
-      {
-        "id": "seed.it.vedph.tiled-text-layer",
         "options": {
           "maxFragmentCount": 3
         }
@@ -658,16 +637,6 @@
         }
       },
       {
-        "id": "seed.fr.it.vedph.chronology",
-        "options": {
-          "tags": [
-            "bat",
-            "prst",
-            "cos"
-          ]
-        }
-      },
-      {
         "id": "seed.fr.it.vedph.apparatus"
       },
       {
@@ -677,26 +646,6 @@
             "ph.c.occl.",
             "ph.c.liq.",
             "ph.c.nas."
-          ]
-        }
-      },
-      {
-        "id": "seed.fr.it.vedph.quotations",
-        "options": {
-          "authors": [
-            "Fest.",
-            "Diac.",
-            "Isid."
-          ]
-        }
-      },
-      {
-        "id": "seed.fr.it.vedph.witnesses",
-        "options": {
-          "ids": [
-            "Fest.",
-            "Diac.",
-            "Isid."
           ]
         }
       }
