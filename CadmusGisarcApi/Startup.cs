@@ -285,7 +285,7 @@ namespace CadmusGisarcApi
             // item browser factory provider
             services.AddSingleton<IItemBrowserFactoryProvider>(_ =>
                 new StandardItemBrowserFactoryProvider(
-                    Configuration.GetConnectionString("Default")));
+                    Configuration.GetConnectionString("Default")!));
             // item index factory provider
             string indexCS = string.Format(
                 Configuration.GetConnectionString("Index"),
