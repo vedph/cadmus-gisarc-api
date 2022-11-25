@@ -318,72 +318,20 @@
       "id": "categories@en",
       "entries": [
         {
-          "id": "architecture",
-          "value": "architecture"
+          "id": "christian-383",
+          "value": "christian"
         },
         {
-          "id": "geography",
-          "value": "geography"
+          "id": "decree-384",
+          "value": "decree"
         },
         {
-          "id": "geography.cities",
-          "value": "geography: cities"
+          "id": "doc-357",
+          "value": "document"
         },
         {
-          "id": "geography.regions",
-          "value": "geography: regions"
-        },
-        {
-          "id": "ethnography",
-          "value": "ethnography"
-        },
-        {
-          "id": "ethnography.death",
-          "value": "ethnography: death"
-        },
-        {
-          "id": "ethnography.food",
-          "value": "ethnography: food"
-        },
-        {
-          "id": "ethnography.peoples",
-          "value": "ethnography: peoples"
-        },
-        {
-          "id": "ethnography.religion",
-          "value": "ethnography: religion"
-        },
-        {
-          "id": "ethnography.religion.deities",
-          "value": "ethnography: religion deities"
-        },
-        {
-          "id": "ethnography.religion.rites",
-          "value": "ethnography: religion rites"
-        },
-        {
-          "id": "history",
-          "value": "history"
-        },
-        {
-          "id": "language",
-          "value": "language"
-        },
-        {
-          "id": "language.phonology",
-          "value": "language: phonology"
-        },
-        {
-          "id": "language.morphology",
-          "value": "language: morphology"
-        },
-        {
-          "id": "language.syntax",
-          "value": "language: syntax"
-        },
-        {
-          "id": "literature",
-          "value": "literature"
+          "id": "graffiti-127",
+          "value": "graffiti"
         }
       ]
     },
