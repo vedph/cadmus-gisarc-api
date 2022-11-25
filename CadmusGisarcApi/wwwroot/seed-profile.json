@@ -25,12 +25,20 @@
         },
         {
           "typeId": "it.vedph.gisarc.location",
-          "name": "date",
-          "description": "Site location.",
+          "name": "location",
+          "description": "Inscription location.",
           "isRequired": true,
           "colorKey": "006400",
           "groupKey": "general",
           "sortKey": "c"
+        },
+        {
+          "typeId": "it.vedph.pin-links",
+          "name": "site link",
+          "description": "Inscription's site'.",
+          "colorKey": "408400",
+          "groupKey": "general",
+          "sortKey": "d"
         },
         {
           "typeId": "it.vedph.historical-date",
@@ -39,23 +47,23 @@
           "isRequired": true,
           "colorKey": "000080",
           "groupKey": "general",
-          "sortKey": "d"
-        },
-        {
-          "typeId": "it.vedph.gisarc.epi-support",
-          "name": "date",
-          "description": "Material support.",
-          "colorKey": "B03060",
-          "groupKey": "general",
           "sortKey": "e"
         },
         {
+          "typeId": "it.vedph.gisarc.epi-support",
+          "name": "support",
+          "description": "Material support.",
+          "colorKey": "B03060",
+          "groupKey": "general",
+          "sortKey": "f"
+        },
+        {
           "typeId": "it.vedph.gisarc.epi-writing",
-          "name": "date",
+          "name": "writing",
           "description": "Writing.",
           "colorKey": "FA0000",
           "groupKey": "general",
-          "sortKey": "f"
+          "sortKey": "g"
         },
         {
           "typeId": "it.vedph.categories",
@@ -64,7 +72,7 @@
           "isRequired": true,
           "colorKey": "00CED1",
           "groupKey": "classification",
-          "sortKey": "g"
+          "sortKey": "h"
         },
         {
           "typeId": "it.vedph.index-keywords",
@@ -72,7 +80,7 @@
           "description": "Item's index keywords.",
           "colorKey": "FFA500",
           "groupKey": "classification",
-          "sortKey": "h"
+          "sortKey": "i"
         },
         {
           "typeId": "it.vedph.comment",
@@ -80,7 +88,7 @@
           "description": "Comment.",
           "colorKey": "FEFE00",
           "groupKey": "comment",
-          "sortKey": "i"
+          "sortKey": "j"
         },
         {
           "typeId": "it.vedph.note",
@@ -88,7 +96,7 @@
           "description": "A free text note.",
           "colorKey": "00FE00",
           "groupKey": "comment",
-          "sortKey": "j"
+          "sortKey": "k"
         },
         {
           "typeId": "it.vedph.doc-references",
@@ -96,7 +104,7 @@
           "description": "Documental references.",
           "colorKey": "00FA90",
           "groupKey": "references",
-          "sortKey": "k"
+          "sortKey": "l"
         },
         {
           "typeId": "it.vedph.bibliography",
@@ -104,7 +112,7 @@
           "description": "Bibliography.",
           "colorKey": "0000FE",
           "groupKey": "references",
-          "sortKey": "l"
+          "sortKey": "m"
         },
         {
           "typeId": "it.vedph.token-text",
@@ -113,7 +121,7 @@
           "description": "Item's token-based text.",
           "colorKey": "D8BFD8",
           "groupKey": "text",
-          "sortKey": "m"
+          "sortKey": "n"
         },
         {
           "typeId": "it.vedph.token-text-layer",
@@ -122,7 +130,7 @@
           "description": "Comments on text.",
           "colorKey": "FE00FE",
           "groupKey": "text",
-          "sortKey": "n"
+          "sortKey": "o"
         },
         {
           "typeId": "it.vedph.token-text-layer",
@@ -131,7 +139,7 @@
           "description": "Critical apparatus.",
           "colorKey": "1E90FF",
           "groupKey": "text",
-          "sortKey": "o"
+          "sortKey": "p"
         },
         {
           "typeId": "it.vedph.token-text-layer",
@@ -140,7 +148,7 @@
           "description": "Standard orthography.",
           "colorKey": "F0E68C",
           "groupKey": "text",
-          "sortKey": "p"
+          "sortKey": "q"
         }
       ]
     },
@@ -168,12 +176,21 @@
           "sortKey": "b"
         },
         {
+          "typeId": "it.vedph.gisarc.location",
+          "name": "location",
+          "description": "Site location.",
+          "isRequired": true,
+          "colorKey": "006400",
+          "groupKey": "general",
+          "sortKey": "c"
+        },
+        {
           "typeId": "it.vedph.external-ids",
           "name": "external IDs",
           "description": "External identifiers.",
           "colorKey": "2F4F4F",
           "groupKey": "general",
-          "sortKey": "c"
+          "sortKey": "d"
         },
         {
           "typeId": "it.vedph.comment",
@@ -181,7 +198,7 @@
           "description": "Comment.",
           "colorKey": "FEFE00",
           "groupKey": "comment",
-          "sortKey": "d"
+          "sortKey": "e"
         },
         {
           "typeId": "it.vedph.note",
@@ -189,7 +206,7 @@
           "description": "A free text note.",
           "colorKey": "00FE00",
           "groupKey": "comment",
-          "sortKey": "e"
+          "sortKey": "f"
         },
         {
           "typeId": "it.vedph.doc-references",
@@ -197,7 +214,7 @@
           "description": "Documental references.",
           "colorKey": "00FA90",
           "groupKey": "references",
-          "sortKey": "f"
+          "sortKey": "g"
         },
         {
           "typeId": "it.vedph.bibliography",
@@ -205,7 +222,7 @@
           "description": "Bibliography.",
           "colorKey": "0000FE",
           "groupKey": "references",
-          "sortKey": "g"
+          "sortKey": "h"
         }
       ]
     }
@@ -292,6 +309,10 @@
         {
           "id": "it.vedph.note",
           "value": "note"
+        },
+        {
+          "id": "it.vedph.pin-links",
+          "value": "site link"
         },
         {
           "id": "it.vedph.token-text",
