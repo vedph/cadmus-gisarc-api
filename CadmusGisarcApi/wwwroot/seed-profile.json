@@ -162,6 +162,7 @@
           "typeId": "it.vedph.metadata",
           "name": "metadata",
           "description": "Item's metadata.",
+          "isRequired": true,
           "colorKey": "8B4513",
           "groupKey": "general",
           "sortKey": "b"
