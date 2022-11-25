@@ -527,12 +527,8 @@
       "id": "name-piece-types@en",
       "entries": [
         {
-          "id": "first",
-          "value": "first"
-        },
-        {
-          "id": "last",
-          "value": "last"
+          "id": "name",
+          "value": "name"
         }
       ]
     },
