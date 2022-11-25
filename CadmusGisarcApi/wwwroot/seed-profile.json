@@ -315,79 +315,34 @@
       ]
     },
     {
-      "id": "categories@en",
+      "id": "apparatus-tags@en",
       "entries": [
         {
-          "id": "christian-383",
-          "value": "christian"
+          "id": "margin",
+          "value": "margin"
         },
         {
-          "id": "decree-384",
-          "value": "decree"
-        },
-        {
-          "id": "doc-357",
-          "value": "document"
-        },
-        {
-          "id": "graffiti-127",
-          "value": "graffiti"
+          "id": "inter",
+          "value": "interlinear"
         }
       ]
     },
     {
-      "id": "languages@en",
+      "id": "bibliography-author-roles@en",
       "entries": [
         {
-          "id": "eng",
-          "value": "English"
+          "id": "ed",
+          "value": "editor"
         },
         {
-          "id": "fre",
-          "value": "French"
+          "id": "tr",
+          "value": "translator"
         },
         {
-          "id": "deu",
-          "value": "German"
-        },
-        {
-          "id": "grc",
-          "value": "Ancient Greek"
-        },
-        {
-          "id": "gre",
-          "value": "Modern Greek"
-        },
-        {
-          "id": "ita",
-          "value": "Italian"
-        },
-        {
-          "id": "lat",
-          "value": "Latin"
-        },
-        {
-          "id": "spa",
-          "value": "Spanish"
+          "id": "org",
+          "value": "organization"
         }
       ]
-    },
-    {
-      "id": "name-piece-types@en",
-      "entries": [
-        {
-          "id": "first",
-          "value": "first"
-        },
-        {
-          "id": "last",
-          "value": "last"
-        }
-      ]
-    },
-    {
-      "id": "name-languages@en",
-      "targetId": "languages"
     },
     {
       "id": "bibliography-languages@en",
@@ -439,32 +394,158 @@
       ]
     },
     {
-      "id": "bibliography-author-roles@en",
+      "id": "categories@en",
       "entries": [
         {
-          "id": "ed",
-          "value": "editor"
+          "id": "christian-383",
+          "value": "christian"
         },
         {
-          "id": "tr",
-          "value": "translator"
+          "id": "decree-384",
+          "value": "decree"
         },
         {
-          "id": "org",
-          "value": "organization"
+          "id": "doc-357",
+          "value": "document"
+        },
+        {
+          "id": "graffiti-127",
+          "value": "graffiti"
         }
       ]
     },
     {
-      "id": "apparatus-tags@en",
+      "id": "epi-support-materials@en",
       "entries": [
         {
-          "id": "margin",
-          "value": "margin"
+          "id": "concrete",
+          "value": "concrete"
         },
         {
-          "id": "inter",
-          "value": "interlinear"
+          "id": "plaster",
+          "value": "plaster"
+        },
+        {
+          "id": "wood",
+          "value": "wood"
+        },
+        {
+          "id": "stone",
+          "value": "stone"
+        },
+        {
+          "id": "brick",
+          "value": "brick"
+        },
+        {
+          "id": "metal",
+          "value": "metal"
+        }
+      ]
+    },
+    {
+      "id": "epi-writing-languages@en",
+      "entries": [
+        {
+          "id": "grc",
+          "value": "Greek"
+        },
+        {
+          "id": "lat",
+          "value": "Latin"
+        }
+      ]
+    },
+    {
+      "id": "epi-writing-systems@en",
+      "entries": [
+        {
+          "id": "-",
+          "value": "---"
+        },
+        {
+          "id": "latn",
+          "value": "Latin"
+        },
+        {
+          "id": "grek",
+          "value": "Greek"
+        }
+      ]
+    },
+    {
+      "id": "epi-writing-types@en",
+      "entries": [
+        {
+          "id": "-",
+          "value": "---"
+        }
+      ]
+    },
+    {
+      "id": "languages@en",
+      "entries": [
+        {
+          "id": "eng",
+          "value": "English"
+        },
+        {
+          "id": "fre",
+          "value": "French"
+        },
+        {
+          "id": "deu",
+          "value": "German"
+        },
+        {
+          "id": "grc",
+          "value": "Ancient Greek"
+        },
+        {
+          "id": "gre",
+          "value": "Modern Greek"
+        },
+        {
+          "id": "ita",
+          "value": "Italian"
+        },
+        {
+          "id": "lat",
+          "value": "Latin"
+        },
+        {
+          "id": "spa",
+          "value": "Spanish"
+        }
+      ]
+    },
+    {
+      "id": "name-languages@en",
+      "targetId": "languages"
+    },
+    {
+      "id": "name-piece-types@en",
+      "entries": [
+        {
+          "id": "first",
+          "value": "first"
+        },
+        {
+          "id": "last",
+          "value": "last"
+        }
+      ]
+    },
+    {
+      "id": "physical-size-units@en",
+      "entries": [
+        {
+          "id": "cm",
+          "value": "cm"
+        },
+        {
+          "id": "mm",
+          "value": "mm"
         }
       ]
     }
