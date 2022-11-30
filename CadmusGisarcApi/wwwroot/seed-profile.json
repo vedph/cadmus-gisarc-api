@@ -433,35 +433,120 @@
         {
           "id": "graffiti-127",
           "value": "graffiti"
+        },
+        {
+          "id": "honorific-69",
+          "value": "honorific"
+        },
+        {
+          "id": "instrumentum-136",
+          "value": "instrumentum"
+        },
+        {
+          "id": "funerary-92",
+          "value": "funerary"
+        },
+        {
+          "id": "dedication-88",
+          "value": "dedication"
+        },
+        {
+          "id": "building-86",
+          "value": "building"
+        },
+        {
+          "id": "defixio-76",
+          "value": "defixio"
+        },
+        {
+          "id": "milestone-102",
+          "value": "milestone"
+        },
+        {
+          "id": "seat-111",
+          "value": "seat-inscription"
+        },
+        {
+          "id": "-",
+          "value": "---"
         }
       ]
+    },
+    {
+      "id": "comment-categories@en",
+      "targetId": "categories"
     },
     {
       "id": "epi-support-materials@en",
       "entries": [
         {
-          "id": "concrete",
-          "value": "concrete"
+          "id": "limestone-66",
+          "value": "limestone"
         },
         {
-          "id": "plaster",
-          "value": "plaster"
+          "id": "volcanic-98",
+          "value": "volcanic"
         },
         {
-          "id": "wood",
-          "value": "wood"
+          "id": "marble-48",
+          "value": "marble"
         },
         {
-          "id": "stone",
-          "value": "stone"
+          "id": "-",
+          "value": "---"
+        }
+      ]
+    },
+    {
+      "id": "epi-support-object-types@en",
+      "entries": [
+        {
+          "id": "block-189",
+          "value": "block"
         },
         {
-          "id": "brick",
-          "value": "brick"
+          "id": "statue-base-57",
+          "value": "statue-base"
         },
         {
-          "id": "metal",
-          "value": "metal"
+          "id": "slab-260",
+          "value": "slab"
+        },
+        {
+          "id": "urn-78",
+          "value": "urn"
+        },
+        {
+          "id": "altar-30",
+          "value": "slab"
+        },
+        {
+          "id": "curse-tablet-266",
+          "value": "curse-tablet"
+        },
+        {
+          "id": "milestone-89",
+          "value": "milestone"
+        },
+        {
+          "id": "plaque-1483",
+          "value": "plaque"
+        },
+        {
+          "id": "aedicula-1201",
+          "value": "aedicula"
+        },
+        {
+          "id": "column-100",
+          "value": "column"
+        },
+        {
+          "id": "wall-416",
+          "value": "wall"
+        },
+        {
+          "id": "-",
+          "value": "---"
         }
       ]
     },
