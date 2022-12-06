@@ -628,7 +628,16 @@
     },
     {
       "id": "name-languages@en",
-      "targetId": "languages"
+      "entries": [
+        {
+          "id": "grc",
+          "value": "Greek"
+        },
+        {
+          "id": "lat",
+          "value": "Latin"
+        }
+      ]
     },
     {
       "id": "name-piece-types@en",
