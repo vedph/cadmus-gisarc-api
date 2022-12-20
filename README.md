@@ -8,4 +8,7 @@ Quick Docker image build:
 
 ## History
 
+- 2022-12-20:
+  - updated thesauri.
+  - updated packages.
 - 2022-11-30: updated thesauri.

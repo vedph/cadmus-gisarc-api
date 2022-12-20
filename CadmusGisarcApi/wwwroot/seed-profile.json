@@ -474,7 +474,172 @@
     },
     {
       "id": "comment-categories@en",
-      "targetId": "categories"
+      "entries": [
+        {
+          "id": "p.-",
+          "value": "phonology"
+        },
+        {
+          "id": "grc.p.-",
+          "value": "phonology: Greek"
+        },
+        {
+          "id": "grc.p.itacism",
+          "value": "Greek: phonology: itacism"
+        },
+        {
+          "id": "grc.p.monophth.-",
+          "value": "Greek: phonology: monophthongisation"
+        },
+        {
+          "id": "grc.p.monophth.ai",
+          "value": "Greek: phonology: monophthongisation: AI"
+        },
+        {
+          "id": "grc.p.fric",
+          "value": "Greek: phonology: fricativisation"
+        },
+        {
+          "id": "lat.p.-",
+          "value": "phonology: Latin"
+        },
+        {
+          "id": "lat.p.fric",
+          "value": "Latin: phonology: fricativisation"
+        },
+        {
+          "id": "lat.p.qt",
+          "value": "Latin: phonology: quantity"
+        },
+        {
+          "id": "lat.p.epsilon-i",
+          "value": "Latin: phonology: epsilon=i"
+        },
+        {
+          "id": "lat.p.omicron-u",
+          "value": "Latin: phonology: omicron=u"
+        },
+        {
+          "id": "grc.dor.-",
+          "value": "Greek: Doric"
+        },
+        {
+          "id": "grc.dor.a-h",
+          "value": "Greek: Doric: A=H"
+        },
+        {
+          "id": "grc.dor.sev",
+          "value": "Greek: Doric: severior"
+        },
+        {
+          "id": "grc.dor.gen-masc-a",
+          "value": "Greek: Doric: gen-masc-a"
+        },
+        {
+          "id": "grc.dor.gen-ios",
+          "value": "Greek: Doric: gen-ios"
+        },
+        {
+          "id": "grc.dor.gen-eos",
+          "value": "Greek: Doric: gen-eos"
+        },
+        {
+          "id": "grc.dor.eu-eo",
+          "value": "Greek: Doric: eu=eo"
+        },
+        {
+          "id": "grc.dor.nom-fem-a",
+          "value": "Greek: Doric: nom-fem-a"
+        },
+        {
+          "id": "grc.dor.gen-fem-as",
+          "value": "Greek: Doric: gen-fem-as"
+        },
+        {
+          "id": "lan-con.-",
+          "value": "language-contact"
+        },
+        {
+          "id": "lan-con.grc.-",
+          "value": "language-contact: Greek"
+        },
+        {
+          "id": "lan-con.grc.trf.-",
+          "value": "language-contact: Greek: transfer"
+        },
+        {
+          "id": "lan-con.grc.trf.rom-names.-",
+          "value": "language-contact: Greek: transfer: Roman-names"
+        },
+        {
+          "id": "lan-con.grc.trf.rom-names.fem-a",
+          "value": "language-contact: Greek: transfer: Roman-names: fem-a"
+        },
+        {
+          "id": "lan-con.grc.trf.rom-names.masc-a",
+          "value": "language-contact: Greek: transfer: Roman-names: masc-a"
+        },
+        {
+          "id": "morph.-",
+          "value": "morphology"
+        },
+        {
+          "id": "morph.grc.-",
+          "value": "morphology: Greek"
+        },
+        {
+          "id": "morph.grc.rom-names-is",
+          "value": "morphology: Greek: Roman-names-is"
+        },
+        {
+          "id": "lan-con.grc.calq.-",
+          "value": "language-contact: Greek: calque"
+        },
+        {
+          "id": "lan-con.grc.trf.epi-conv.-",
+          "value": "language-contact: Greek: transfer: epigraphic-conventions"
+        },
+        {
+          "id": "lan-con.grc.trf.epi-conv.abbr",
+          "value": "language-contact: Greek: transfer: epigraphic-conventions: abbreviations"
+        },
+        {
+          "id": "lan-con.grc.transl.-",
+          "value": "language-contact: Greek: translation"
+        },
+        {
+          "id": "lan-con.grc.transl.form.-",
+          "value": "language-contact: Greek: translation: formula"
+        },
+        {
+          "id": "lan-con.grc.interf.-",
+          "value": "language-contact: Greek: interference"
+        },
+        {
+          "id": "lan-con.grc.interf.y-o",
+          "value": "language-contact: Greek: interference: Y=O"
+        },
+        {
+          "id": "lan-con.lat.-",
+          "value": "language-contact: Latin:"
+        },
+        {
+          "id": "lan-con.lat.calq.-",
+          "value": "language-contact: Latin: calque"
+        },
+        {
+          "id": "lan-con.lat.transl.-",
+          "value": "language-contact: Latin: translation"
+        },
+        {
+          "id": "lan-con.lat.transl.form.-",
+          "value": "language-contact: Latin: translation: formula"
+        },
+        {
+          "id": "lan-con.lat.interf.-",
+          "value": "language-contact: Latin: interference"
+        }
+      ]
     },
     {
       "id": "epi-support-materials@en",
@@ -649,6 +814,135 @@
       ]
     },
     {
+      "id": "orthography-tags@en",
+      "entries": [
+        {
+          "id": "grc.p.-",
+          "value": "phonology: Greek"
+        },
+        {
+          "id": "grc.p.v.-",
+          "value": "Greek: phonology: vowels"
+        },
+        {
+          "id": "grc.p.v.itacism.-",
+          "value": "Greek: phonology: vowels: itacism"
+        },
+        {
+          "id": "grc.p.v.itacism.ei-i",
+          "value": "Greek: phonology: vowels: itacism: EI=I"
+        },
+        {
+          "id": "grc.p.v.itacism.i-ei",
+          "value": "Greek: phonology: vowels: itacism: I=EI"
+        },
+        {
+          "id": "grc.p.v.itacism.h-ei",
+          "value": "Greek: phonology: vowels: itacism: H=EI"
+        },
+        {
+          "id": "grc.p.v.itacism.y-i",
+          "value": "Greek: phonology: vowels: itacism: Y=I"
+        },
+        {
+          "id": "grc.p.v.itacism.hi-ei",
+          "value": "Greek: phonology: vowels: itacism: HI=EI"
+        },
+        {
+          "id": "grc.p.v.monophth.-",
+          "value": "Greek: phonology: vowels: monophthongisation"
+        },
+        {
+          "id": "grc.p.v.monophth.e-ai",
+          "value": "Greek: phonology: vowels: monophthongisation: E=AI"
+        },
+        {
+          "id": "grc.p.v.monophth.aii-ai",
+          "value": "Greek: phonology: vowels: monophthongisation: AII=AI"
+        },
+        {
+          "id": "grc.p.v.qt.-",
+          "value": "Greek: phonology: vowels: quantity"
+        },
+        {
+          "id": "grc.p.v.qt.o-omega",
+          "value": "Greek: phonology: vowels: quantity: O=Ω"
+        },
+        {
+          "id": "grc.p.c.-",
+          "value": "Greek: phonology: consonants"
+        },
+        {
+          "id": "grc.p.c.fric.-",
+          "value": "Greek: phonology: consonants: fricativisation"
+        },
+        {
+          "id": "grc.p.c.fric.b-oy",
+          "value": "Greek: phonology: consonants: fricativisation: B=OΥ"
+        },
+        {
+          "id": "grc.p.c.occl.-",
+          "value": "Greek: phonology: consonants: occlusives"
+        },
+        {
+          "id": "grc.p.c.occl.d-t",
+          "value": "Greek: phonology: consonants: occlusives: Δ=Τ"
+        },
+        {
+          "id": "lat.p.-",
+          "value": "phonology: Latin"
+        },
+        {
+          "id": "lat.p.v.-",
+          "value": "Latin: phonology: vowels"
+        },
+        {
+          "id": "lat.p.v.qt.-",
+          "value": "Latin: phonology: vowels: quantity"
+        },
+        {
+          "id": "lat.p.v.qt.e-longi",
+          "value": "Latin: phonology: vowels: quantity: E=ī"
+        },
+        {
+          "id": "lat.p.v.qt.e-longo",
+          "value": "Latin: phonology: vowels: quantity: E=ō"
+        },
+        {
+          "id": "lat.p.v.qt.oy-o",
+          "value": "Latin: phonology: vowels: quantity: OY=O"
+        },
+        {
+          "id": "lat.p.c.-",
+          "value": "Latin: phonology: consonants"
+        },
+        {
+          "id": "lat.p.c.fric.-",
+          "value": "Latin: phonology: consonants: fricativisation"
+        },
+        {
+          "id": "lat.p.c.fric.b-v",
+          "value": "Latin: phonology: consonants: fricativisation: B=V"
+        },
+        {
+          "id": "lat.p.c.occl.-",
+          "value": "Latin: phonology: consonants: occlusives"
+        },
+        {
+          "id": "lat.p.c.occl.p-b",
+          "value": "Latin: phonology: consonants: occlusives: Π=B"
+        },
+        {
+          "id": "lat.p.c.nas.-",
+          "value": "Latin: phonology: consonants: nasals"
+        },
+        {
+          "id": "lat.p.c.nas.coiug",
+          "value": "Latin: phonology: consonants: nasals: coiug=coniug"
+        }
+      ]
+    },
+    {
       "id": "physical-size-units@en",
       "entries": [
         {
@@ -665,7 +959,7 @@
   "seed": {
     "options": {
       "seed": 1,
-      "users": [ "zeus" ],
+      "users": ["zeus"],
       "partRoles": [],
       "fragmentRoles": []
     },
@@ -680,13 +974,7 @@
             "Sampson,James",
             "Voss,Francis"
           ],
-          "journals": [
-            "AJPh",
-            "CJ",
-            "CPh",
-            "CQ",
-            "IF"
-          ]
+          "journals": ["AJPh", "CJ", "CPh", "CQ", "IF"]
         }
       },
       {
@@ -705,8 +993,8 @@
       {
         "id": "seed.it.vedph.comment",
         "options": {
-          "languages": [ "eng", "ita" ],
-          "categories": [ "language.phonology", "language.syntax", "history" ]
+          "languages": ["eng", "ita"],
+          "categories": ["language.phonology", "language.syntax", "history"]
         }
       },
       {
@@ -730,17 +1018,8 @@
       {
         "id": "seed.it.vedph.index-keywords",
         "options": {
-          "indexIds": [
-            "persons",
-            "places"
-          ],
-          "languages": [
-            "eng",
-            "deu",
-            "ita",
-            "fra",
-            "spa"
-          ]
+          "indexIds": ["persons", "places"],
+          "languages": ["eng", "deu", "ita", "fra", "spa"]
         }
       },
       {
@@ -752,11 +1031,7 @@
       {
         "id": "seed.it.vedph.note",
         "options": {
-          "tags": [
-            "language",
-            "history",
-            "geography"
-          ]
+          "tags": ["language", "history", "geography"]
         }
       },
       {
@@ -773,8 +1048,8 @@
       {
         "id": "seed.fr.it.vedph.comment",
         "options": {
-          "languages": [ "eng", "ita" ],
-          "categories": [ "language.phonology", "language.syntax", "history" ]
+          "languages": ["eng", "ita"],
+          "categories": ["language.phonology", "language.syntax", "history"]
         }
       },
       {
@@ -783,11 +1058,7 @@
       {
         "id": "seed.fr.it.vedph.orthography",
         "options": {
-          "tags": [
-            "ph.c.occl.",
-            "ph.c.liq.",
-            "ph.c.nas."
-          ]
+          "tags": ["ph.c.occl.", "ph.c.liq.", "ph.c.nas."]
         }
       }
     ]
