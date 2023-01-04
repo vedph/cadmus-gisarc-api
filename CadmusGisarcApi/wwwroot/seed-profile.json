@@ -18,19 +18,10 @@
         {
           "typeId": "it.vedph.metadata",
           "name": "metadata",
-          "description": "Item's metadata.",
+          "description": "Generic metadata.",
           "colorKey": "8B4513",
           "groupKey": "general",
           "sortKey": "b"
-        },
-        {
-          "typeId": "it.vedph.gisarc.location",
-          "name": "location",
-          "description": "Inscription location.",
-          "isRequired": true,
-          "colorKey": "006400",
-          "groupKey": "general",
-          "sortKey": "c"
         },
         {
           "typeId": "it.vedph.pin-links",
@@ -38,31 +29,40 @@
           "description": "Inscription's site'.",
           "colorKey": "408400",
           "groupKey": "general",
+          "sortKey": "c"
+        },
+        {
+          "typeId": "it.vedph.geo.asserted-locations",
+          "name": "location",
+          "description": "Geographic location(s).",
+          "isRequired": true,
+          "colorKey": "006400",
+          "groupKey": "general",
           "sortKey": "d"
         },
         {
           "typeId": "it.vedph.historical-date",
           "name": "date",
-          "description": "Historical date.",
+          "description": "Date.",
           "isRequired": true,
           "colorKey": "000080",
           "groupKey": "general",
           "sortKey": "e"
         },
         {
-          "typeId": "it.vedph.gisarc.epi-support",
+          "typeId": "it.vedph.epigraphy.support",
           "name": "support",
           "description": "Material support.",
           "colorKey": "B03060",
-          "groupKey": "general",
+          "groupKey": "epigraphy",
           "sortKey": "f"
         },
         {
-          "typeId": "it.vedph.gisarc.epi-writing",
+          "typeId": "it.vedph.epigraphy.writing",
           "name": "writing",
           "description": "Writing.",
           "colorKey": "FA0000",
-          "groupKey": "general",
+          "groupKey": "epigraphy",
           "sortKey": "g"
         },
         {
@@ -134,6 +134,15 @@
         },
         {
           "typeId": "it.vedph.token-text-layer",
+          "roleId": "fr.it.vedph.chronology",
+          "name": "chronology",
+          "description": "Chronological indications in text.",
+          "colorKey": "DDA0DD",
+          "groupKey": "text",
+          "sortKey": "t"
+        },
+        {
+          "typeId": "it.vedph.token-text-layer",
           "roleId": "fr.it.vedph.apparatus",
           "name": "apparatus",
           "description": "Critical apparatus.",
@@ -149,6 +158,15 @@
           "colorKey": "F0E68C",
           "groupKey": "text",
           "sortKey": "q"
+        },
+        {
+          "typeId": "it.vedph.token-text-layer",
+          "roleId": "fr.it.vedph.epigraphy.ligatures",
+          "name": "ligatures",
+          "description": "Ligatures.",
+          "colorKey": "E0C404",
+          "groupKey": "text",
+          "sortKey": "r"
         }
       ]
     },
@@ -159,28 +177,29 @@
       "colorKey": "EBD586",
       "partDefinitions": [
         {
-          "typeId": "it.vedph.names",
-          "name": "names",
-          "description": "Proper name(s).",
-          "colorKey": "EE82EE",
-          "groupKey": "general",
+          "typeId": "it.vedph.geo.asserted-toponyms",
+          "name": "toponym",
+          "description": "Toponym(s).",
+          "isRequired": true,
+          "colorKey": "806400",
+          "groupKey": "geography",
           "sortKey": "a"
+        },
+        {
+          "typeId": "it.vedph.geo.asserted-locations",
+          "name": "location",
+          "description": "Geographic location(s).",
+          "isRequired": true,
+          "colorKey": "006400",
+          "groupKey": "geography",
+          "sortKey": "b"
         },
         {
           "typeId": "it.vedph.metadata",
           "name": "metadata",
-          "description": "Item's metadata.",
+          "description": "Generic metadata.",
           "isRequired": true,
           "colorKey": "8B4513",
-          "groupKey": "general",
-          "sortKey": "b"
-        },
-        {
-          "typeId": "it.vedph.gisarc.location",
-          "name": "location",
-          "description": "Site location.",
-          "isRequired": true,
-          "colorKey": "006400",
           "groupKey": "general",
           "sortKey": "c"
         },
@@ -275,20 +294,24 @@
           "value": "references"
         },
         {
+          "id": "it.vedph.epigraphy.support",
+          "value": "epi support"
+        },
+        {
+          "id": "it.vedph.epigraphy.writing",
+          "value": "epi writing"
+        },
+        {
           "id": "it.vedph.external-ids",
           "value": "external IDs"
         },
         {
-          "id": "it.vedph.gisarc.epi-support",
-          "value": "support"
+          "id": "it.vedph.geo.asserted-toponyms",
+          "value": "toponyms"
         },
         {
-          "id": "it.vedph.gisarc.epi-writing",
-          "value": "writing"
-        },
-        {
-          "id": "it.vedph.gisarc.location",
-          "value": "location"
+          "id": "it.vedph.geo.asserted-locations",
+          "value": "locations"
         },
         {
           "id": "it.vedph.historical-date",
@@ -329,6 +352,10 @@
         {
           "id": "fr.it.vedph.comment",
           "value": "comment fr."
+        },
+        {
+          "id": "fr.it.vedph.epigraphy.ligatures",
+          "value": "ligatures fr."
         },
         {
           "id": "fr.it.vedph.orthography",
@@ -638,6 +665,39 @@
         {
           "id": "lan-con.lat.interf.-",
           "value": "language-contact: Latin: interference"
+        }
+      ]
+    },
+    {
+      "id": "epi-ligature-types@en",
+      "entries": [
+        {
+          "id": "joint",
+          "value": "joint"
+        },
+        {
+          "id": "inversion",
+          "value": "inversion"
+        },
+        {
+          "id": "overlap",
+          "value": "overlap"
+        },
+        {
+          "id": "replacement",
+          "value": "replacement"
+        },
+        {
+          "id": "graft",
+          "value": "graft"
+        },
+        {
+          "id": "inclusion",
+          "value": "inclusion"
+        },
+        {
+          "id": "connection",
+          "value": "connection"
         }
       ]
     },
@@ -974,7 +1034,7 @@
             "Sampson,James",
             "Voss,Francis"
           ],
-          "journals": ["AJPh", "CJ", "CPh", "CQ", "IF"]
+          "journals": [ "AJPh", "CJ", "CPh", "CQ", "IF" ]
         }
       },
       {
@@ -993,8 +1053,8 @@
       {
         "id": "seed.it.vedph.comment",
         "options": {
-          "languages": ["eng", "ita"],
-          "categories": ["language.phonology", "language.syntax", "history"]
+          "languages": [ "eng", "ita" ],
+          "categories": [ "language.phonology", "language.syntax", "history" ]
         }
       },
       {
@@ -1004,13 +1064,16 @@
         "id": "seed.it.vedph.external-ids"
       },
       {
-        "id": "seed.it.vedph.gisarc.epi-support"
+        "id": "seed.it.vedph.epigraphy.support"
       },
       {
-        "id": "seed.it.vedph.gisarc.epi-writing"
+        "id": "seed.it.vedph.epigraphy.writing"
       },
       {
-        "id": "seed.it.vedph.gisarc.location"
+        "id": "seed.it.vedph.geo.asserted-locations"
+      },
+      {
+        "id": "seed.it.vedph.geo.asserted-toponyms"
       },
       {
         "id": "seed.it.vedph.historical-date"
@@ -1018,8 +1081,8 @@
       {
         "id": "seed.it.vedph.index-keywords",
         "options": {
-          "indexIds": ["persons", "places"],
-          "languages": ["eng", "deu", "ita", "fra", "spa"]
+          "indexIds": [ "persons", "places" ],
+          "languages": [ "eng", "deu", "ita", "fra", "spa" ]
         }
       },
       {
@@ -1031,7 +1094,7 @@
       {
         "id": "seed.it.vedph.note",
         "options": {
-          "tags": ["language", "history", "geography"]
+          "tags": [ "language", "history", "geography" ]
         }
       },
       {
@@ -1048,17 +1111,20 @@
       {
         "id": "seed.fr.it.vedph.comment",
         "options": {
-          "languages": ["eng", "ita"],
-          "categories": ["language.phonology", "language.syntax", "history"]
+          "languages": [ "eng", "ita" ],
+          "categories": [ "language.phonology", "language.syntax", "history" ]
         }
       },
       {
         "id": "seed.fr.it.vedph.apparatus"
       },
       {
+        "id": "seed.fr.it.vedph.epigraphy.ligatures"
+      },
+      {
         "id": "seed.fr.it.vedph.orthography",
         "options": {
-          "tags": ["ph.c.occl.", "ph.c.liq.", "ph.c.nas."]
+          "tags": [ "ph.c.occl.", "ph.c.liq.", "ph.c.nas." ]
         }
       }
     ]

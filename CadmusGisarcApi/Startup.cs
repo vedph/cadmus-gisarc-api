@@ -21,7 +21,6 @@ using Cadmus.Api.Services.Messaging;
 using Cadmus.Api.Services;
 using Microsoft.AspNetCore.HttpOverrides;
 using Cadmus.Index.Sql;
-using Cadmus.Gisarc.Services;
 using Cadmus.Core.Storage;
 using Cadmus.Export.Preview;
 using Cadmus.Graph.MySql;
