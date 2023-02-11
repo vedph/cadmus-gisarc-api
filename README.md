@@ -2,7 +2,7 @@
 
 Quick Docker image build:
 
-    docker build . -t vedph2020/cadmus-gisarc-api:2.0.0 -t vedph2020/cadmus-gisarc-api:latest
+    docker build . -t vedph2020/cadmus-gisarc-api:2.0.1 -t vedph2020/cadmus-gisarc-api:latest
 
 (replace with the current version).
 
@@ -78,6 +78,10 @@ c) references:
 - bibliography
 
 ## History
+
+### 2.0.1
+
+- 2023-02-11: updated packages.
 
 ### 2.0.0
 
