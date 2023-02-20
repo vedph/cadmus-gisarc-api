@@ -25,7 +25,7 @@ a) general:
 
 - external IDs\*: all the IDs linked to the inscription (ISicily and eventually others).
 - metadata: general purpose metadata.
-- pin links: link to the site containing the inscription, if any. The site must be a site item with a metadata part having a metadatum named `hid` equal to the human-friendly ID we want to use to identify it in order to link it to inscriptions.
+- pin links: link to the site containing the inscription, if any. The site must be a site item with a metadata part having a metadatum named `eid` equal to the human-friendly ID we want to use to identify it in order to link it to inscriptions.
 - geographic location(s)\*. This is used to pinpoint the inscription on a map. The link to a site is managed via the pin links part.
 - date\*.
 
@@ -64,7 +64,7 @@ a) general:
 
 - toponyms\*: the site's toponym(s).
 - location\*: geographic location. This is used to pinpoint the site on a map, as a point (representing its conventionally defined center) and eventually also as a region (defined with shapes like polygons).
-- metadata\*: the site's metadata. This should at least include a `hid` metadatum whose value is the human-friendly ID used to link inscriptions to sites.
+- metadata\*: the site's metadata. This should at least include a `eid` metadatum whose value is the human-friendly ID used to link inscriptions to sites.
 - external IDs.
 
 b) comment:
