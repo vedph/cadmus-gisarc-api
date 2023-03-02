@@ -75,12 +75,21 @@
           "sortKey": "h"
         },
         {
+          "typeId": "it.vedph.categories",
+          "roleId": "periods",
+          "name": "periods",
+          "description": "Item's periods.",
+          "colorKey": "00B5B8",
+          "groupKey": "classification",
+          "sortKey": "i"
+        },
+        {
           "typeId": "it.vedph.index-keywords",
           "name": "index keywords",
           "description": "Item's index keywords.",
           "colorKey": "FFA500",
           "groupKey": "classification",
-          "sortKey": "i"
+          "sortKey": "j"
         },
         {
           "typeId": "it.vedph.comment",
@@ -88,7 +97,7 @@
           "description": "Comment.",
           "colorKey": "FEFE00",
           "groupKey": "comment",
-          "sortKey": "j"
+          "sortKey": "k"
         },
         {
           "typeId": "it.vedph.note",
@@ -96,7 +105,7 @@
           "description": "A free text note.",
           "colorKey": "00FE00",
           "groupKey": "comment",
-          "sortKey": "k"
+          "sortKey": "l"
         },
         {
           "typeId": "it.vedph.doc-references",
@@ -104,7 +113,7 @@
           "description": "Documental references.",
           "colorKey": "00FA90",
           "groupKey": "references",
-          "sortKey": "l"
+          "sortKey": "m"
         },
         {
           "typeId": "it.vedph.bibliography",
@@ -112,7 +121,7 @@
           "description": "Bibliography.",
           "colorKey": "0000FE",
           "groupKey": "references",
-          "sortKey": "m"
+          "sortKey": "n"
         },
         {
           "typeId": "it.vedph.token-text",
@@ -121,7 +130,7 @@
           "description": "Item's token-based text.",
           "colorKey": "D8BFD8",
           "groupKey": "text",
-          "sortKey": "n"
+          "sortKey": "o"
         },
         {
           "typeId": "it.vedph.token-text-layer",
@@ -130,7 +139,7 @@
           "description": "Comments on text.",
           "colorKey": "FE00FE",
           "groupKey": "text",
-          "sortKey": "o"
+          "sortKey": "p"
         },
         {
           "typeId": "it.vedph.token-text-layer",
@@ -139,7 +148,7 @@
           "description": "Chronological indications in text.",
           "colorKey": "DDA0DD",
           "groupKey": "text",
-          "sortKey": "t"
+          "sortKey": "q"
         },
         {
           "typeId": "it.vedph.token-text-layer",
@@ -148,7 +157,7 @@
           "description": "Critical apparatus.",
           "colorKey": "1E90FF",
           "groupKey": "text",
-          "sortKey": "p"
+          "sortKey": "r"
         },
         {
           "typeId": "it.vedph.token-text-layer",
@@ -157,7 +166,7 @@
           "description": "Standard orthography.",
           "colorKey": "F0E68C",
           "groupKey": "text",
-          "sortKey": "q"
+          "sortKey": "s"
         },
         {
           "typeId": "it.vedph.token-text-layer",
@@ -166,7 +175,7 @@
           "description": "Ligatures.",
           "colorKey": "E0C404",
           "groupKey": "text",
-          "sortKey": "r"
+          "sortKey": "t"
         }
       ]
     },
@@ -483,6 +492,31 @@
         {
           "id": "-",
           "value": "---"
+        }
+      ]
+    },
+    {
+      "id": "categories_periods@en",
+      "entries": [
+        {
+          "id": "hell",
+          "value": "hellenistic"
+        },
+        {
+          "id": "rep-late",
+          "value": "late-republican"
+        },
+        {
+          "id": "aug",
+          "value": "augustan"
+        },
+        {
+          "id": "imp-early",
+          "value": "early imperial"
+        },
+        {
+          "id": "imp-late",
+          "value": "late imperial"
         }
       ]
     },

@@ -1,6 +1,6 @@
 # Cadmus GISARC API
 
-Quick Docker image build:
+🐋 Quick Docker image build:
 
     docker build . -t vedph2020/cadmus-gisarc-api:2.0.1 -t vedph2020/cadmus-gisarc-api:latest
 
@@ -21,7 +21,7 @@ The GISARC project collects inscriptions from Sicily, so it has only a couple of
 
 The inscription ID should be equal to ISiciliy ID, which is the authoritative source for the texts of this project.
 
-a) general:
+(a) **general**:
 
 - external IDs\*: all the IDs linked to the inscription (ISicily and eventually others).
 - metadata: general purpose metadata.
@@ -29,27 +29,28 @@ a) general:
 - geographic location(s)\*. This is used to pinpoint the inscription on a map. The link to a site is managed via the pin links part.
 - date\*.
 
-b) epigraphy:
+(b) **epigraphy**:
 
 - support.
 - writing.
 
-c) classification:
+(c) **classification**:
 
 - categories\*: general thematic tags from a taxonomy.
+- categories for periods: chronological periods categories.
 - index keywords: multiple-language keywords which can be grouped under several sections ("indexes").
 
-d) comment:
+(d) **comment**:
 
 - comment: generic comment.
 - note: free text note. Might be useful for redactional purposes.
 
-e) references:
+(e) **references**:
 
 - references: short documentary references.
 - bibliography.
 
-f) text:
+(f) **text**:
 
 - text: text or a part of it when required.
 - apparatus layer: critical apparatus.
@@ -60,24 +61,28 @@ f) text:
 
 ## Sites
 
-a) general:
+(a) **general**:
 
 - toponyms\*: the site's toponym(s).
 - location\*: geographic location. This is used to pinpoint the site on a map, as a point (representing its conventionally defined center) and eventually also as a region (defined with shapes like polygons).
 - metadata\*: the site's metadata. This should at least include a `eid` metadatum whose value is the human-friendly ID used to link inscriptions to sites.
 - external IDs.
 
-b) comment:
+(b) **comment**:
 
 - comment
 - note
 
-c) references:
+(c) **references**:
 
 - references
 - bibliography
 
 ## History
+
+- 2023-03-02:
+  - updated packages.
+  - added a second categories part with a `periods` role and changed thesauri accordingly. This way the periods will be stored in their own categories part, distinct from the epigraphic categories part.
 
 ### 2.0.1
 
