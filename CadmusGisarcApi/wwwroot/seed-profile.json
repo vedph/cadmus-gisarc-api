@@ -253,6 +253,96 @@
           "sortKey": "h"
         }
       ]
+    },
+    {
+      "id": "formula",
+      "label": "formula",
+      "description": "The epigraphic formula facet",
+      "colorKey": "83B692",
+      "partDefinitions": [
+        {
+          "typeId": "it.vedph.epigraphy.formula-patterns",
+          "name": "patterns",
+          "description": "Formula patterns.",
+          "isRequired": true,
+          "colorKey": "83B692",
+          "groupKey": "formula",
+          "sortKey": "a"
+        },
+        {
+          "typeId": "it.vedph.external-ids",
+          "name": "external IDs",
+          "description": "External identifiers.",
+          "colorKey": "2F4F4F",
+          "groupKey": "classification",
+          "sortKey": "b"
+        },
+        {
+          "typeId": "it.vedph.metadata",
+          "name": "metadata",
+          "description": "Miscellaneous metadata.",
+          "colorKey": "8B4513",
+          "groupKey": "classification",
+          "sortKey": "c"
+        },
+        {
+          "typeId": "it.vedph.categories",
+          "roleId": "formular",
+          "name": "categories",
+          "description": "Categories.",
+          "colorKey": "98F8F8",
+          "groupKey": "classification",
+          "sortKey": "d"
+        },
+        {
+          "typeId": "it.vedph.index-keywords",
+          "name": "index keywords",
+          "description": "Keywords grouped in indexes.",
+          "colorKey": "588BBF",
+          "groupKey": "classification",
+          "sortKey": "e"
+        },
+        {
+          "typeId": "it.vedph.historical-date",
+          "name": "date",
+          "description": "Historical date.",
+          "colorKey": "F898F8",
+          "groupKey": "placement",
+          "sortKey": "f"
+        },
+        {
+          "typeId": "it.vedph.note",
+          "name": "note",
+          "description": "A free text note.",
+          "colorKey": "B0A0F8",
+          "groupKey": "general",
+          "sortKey": "g"
+        },
+        {
+          "typeId": "it.vedph.comment",
+          "name": "comment",
+          "description": "Comment.",
+          "colorKey": "B2E0AA",
+          "groupKey": "general",
+          "sortKey": "h"
+        },
+        {
+          "typeId": "it.vedph.doc-references",
+          "name": "references",
+          "description": "Documental references.",
+          "colorKey": "BEF0AA",
+          "groupKey": "references",
+          "sortKey": "i"
+        },
+        {
+          "typeId": "it.vedph.bibliography",
+          "name": "bibliography",
+          "description": "Bibliography.",
+          "colorKey": "20B2AA",
+          "groupKey": "references",
+          "sortKey": "j"
+        }
+      ]
     }
   ],
   "flags": [
@@ -301,6 +391,10 @@
         {
           "id": "it.vedph.doc-references",
           "value": "references"
+        },
+        {
+          "id": "it.vedph.epigraphy.formula-patterns",
+          "value": "epi formula"
         },
         {
           "id": "it.vedph.epigraphy.support",
@@ -686,6 +780,56 @@
         {
           "id": "lan-con.lat.interf.-",
           "value": "language-contact: Latin: interference"
+        }
+      ]
+    },
+    {
+      "id": "epi-formula-pattern-languages@en",
+      "entries": [
+        {
+          "id": "grc",
+          "value": "Greek"
+        },
+        {
+          "id": "lat",
+          "value": "Latin"
+        }
+      ]
+    },
+    {
+      "id": "epi-formula-token-tags@en",
+      "entries": [
+        {
+          "id": "noun",
+          "value": "noun"
+        },
+        {
+          "id": "noun.m",
+          "value": "noun: masculine"
+        },
+        {
+          "id": "noun.f",
+          "value": "noun: feminine"
+        },
+        {
+          "id": "noun.n",
+          "value": "noun: neuter"
+        },
+        {
+          "id": "adj",
+          "value": "adjective"
+        },
+        {
+          "id": "adj.-",
+          "value": "adjective (positive)"
+        },
+        {
+          "id": "adj.cmp",
+          "value": "adjective: comparative"
+        },
+        {
+          "id": "adj.sup",
+          "value": "adjective: superlative"
         }
       ]
     },
@@ -1083,6 +1227,9 @@
       },
       {
         "id": "seed.it.vedph.external-ids"
+      },
+      {
+        "id": "seed.it.vedph.epigraphy.formula-patterns"
       },
       {
         "id": "seed.it.vedph.epigraphy.support"

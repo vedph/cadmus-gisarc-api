@@ -93,7 +93,7 @@ namespace CadmusGisarcApi
         private void ConfigureAuthServices(IServiceCollection services)
         {
             // identity
-            string connStringTemplate = Configuration.GetConnectionString("Default");
+            string connStringTemplate = Configuration.GetConnectionString("Default")!;
 
             services.AddIdentityMongoDbProvider<ApplicationUser, ApplicationRole>(
                 options => { },
@@ -287,7 +287,7 @@ namespace CadmusGisarcApi
                     Configuration.GetConnectionString("Default")!));
             // item index factory provider
             string indexCS = string.Format(
-                Configuration.GetConnectionString("Index"),
+                Configuration.GetConnectionString("Index")!,
                 Configuration.GetValue<string>("DatabaseNames:Data"));
             services.AddSingleton<IItemIndexFactoryProvider>(_ =>
                 new StandardItemIndexFactoryProvider(indexCS));
@@ -377,7 +377,7 @@ namespace CadmusGisarcApi
             app.UseSwagger();
             app.UseSwaggerUI(options =>
             {
-                string url = Configuration.GetValue<string>("Swagger:Endpoint");
+                string? url = Configuration.GetValue<string>("Swagger:Endpoint");
                 if (string.IsNullOrEmpty(url)) url = "v1/swagger.json";
                 options.SwaggerEndpoint(url, "V1 Docs");
             });

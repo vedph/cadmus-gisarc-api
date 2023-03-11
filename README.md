@@ -80,6 +80,9 @@ The inscription ID should be equal to ISiciliy ID, which is the authoritative so
 
 ## History
 
+- 2023-03-11:
+  - updated packages.
+  - added formula item to profile.
 - 2023-03-02:
   - updated packages.
   - added a second categories part with a `periods` role and changed thesauri accordingly. This way the periods will be stored in their own categories part, distinct from the epigraphic categories part.
