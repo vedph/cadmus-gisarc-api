@@ -80,6 +80,8 @@ The inscription ID should be equal to ISiciliy ID, which is the authoritative so
 
 ## History
 
+- 2023-03-15: updated thesauri.
+
 ### 2.0.2
 
 - 2023-03-11:
