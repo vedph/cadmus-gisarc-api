@@ -343,6 +343,79 @@
           "sortKey": "j"
         }
       ]
+    },
+    {
+      "id": "phenomenon",
+      "label": "phenomenon",
+      "description": "A linguistic phenomenon",
+      "colorKey": "EBBAB9",
+      "partDefinitions": [
+        {
+          "typeId": "it.vedph.metadata",
+          "name": "metadata",
+          "description": "Miscellaneous metadata.",
+          "colorKey": "8B4513",
+          "groupKey": "classification",
+          "sortKey": "a"
+        },
+        {
+          "typeId": "it.vedph.categories",
+          "roleId": "formular",
+          "name": "categories",
+          "description": "Categories.",
+          "colorKey": "98F8F8",
+          "groupKey": "classification",
+          "sortKey": "b"
+        },
+        {
+          "typeId": "it.vedph.index-keywords",
+          "name": "index keywords",
+          "description": "Keywords grouped in indexes.",
+          "colorKey": "588BBF",
+          "groupKey": "classification",
+          "sortKey": "c"
+        },
+        {
+          "typeId": "it.vedph.comment",
+          "name": "comment",
+          "description": "Comment.",
+          "colorKey": "B2E0AA",
+          "groupKey": "general",
+          "sortKey": "d"
+        },
+        {
+          "typeId": "it.vedph.historical-date",
+          "name": "date",
+          "description": "Historical date.",
+          "colorKey": "F898F8",
+          "groupKey": "placement",
+          "sortKey": "e"
+        },
+        {
+          "typeId": "it.vedph.note",
+          "name": "note",
+          "description": "A free text note.",
+          "colorKey": "B0A0F8",
+          "groupKey": "general",
+          "sortKey": "f"
+        },
+        {
+          "typeId": "it.vedph.doc-references",
+          "name": "references",
+          "description": "Documental references.",
+          "colorKey": "BEF0AA",
+          "groupKey": "references",
+          "sortKey": "g"
+        },
+        {
+          "typeId": "it.vedph.bibliography",
+          "name": "bibliography",
+          "description": "Bibliography.",
+          "colorKey": "20B2AA",
+          "groupKey": "references",
+          "sortKey": "h"
+        }
+      ]
     }
   ],
   "flags": [
