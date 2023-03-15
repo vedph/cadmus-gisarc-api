@@ -584,8 +584,44 @@
           "value": "seat-inscription"
         },
         {
-          "id": "-",
-          "value": "---"
+          "id": "religious-79",
+          "value": "religious"
+        },
+        {
+          "id": "building-honorific-86",
+          "value": "building-honorific"
+        },
+        {
+          "id": "library-catalogue",
+          "value": "library-catalogue"
+        },
+        {
+          "id": "list-of-magistrates-32",
+          "value": "list-of-magistrates"
+        },
+        {
+          "id": "calendar-3",
+          "value": "calendar"
+        },
+        {
+          "id": "account",
+          "value": "account"
+        },
+        {
+          "id": "touristic-text",
+          "value": "touristic-text"
+        },
+        {
+          "id": "terminus-96",
+          "value": "terminus"
+        },
+        {
+          "id": "epigram-368",
+          "value": "epigram"
+        },
+        {
+          "id": "unknown-143",
+          "value": "unknown"
         }
       ]
     },
@@ -618,168 +654,548 @@
       "id": "comment-categories@en",
       "entries": [
         {
-          "id": "p.-",
-          "value": "phonology"
+          "id": "grc.-",
+          "value": "Greek"
         },
         {
           "id": "grc.p.-",
-          "value": "phonology: Greek"
+          "value": "Greek: phonology"
         },
         {
-          "id": "grc.p.itacism",
-          "value": "Greek: phonology: itacism"
+          "id": "grc.p.v.-",
+          "value": "Greek: phonology: vowels"
         },
         {
-          "id": "grc.p.monophth.-",
-          "value": "Greek: phonology: monophthongisation"
+          "id": "grc.p.v.ita.-",
+          "value": "Greek: phonology: vowels: itacism"
         },
         {
-          "id": "grc.p.monophth.ai",
-          "value": "Greek: phonology: monophthongisation: AI"
+          "id": "grc.p.v.ita.ει=ι",
+          "value": "Greek: phonology: vowels: itacism: ει=ι"
         },
         {
-          "id": "grc.p.fric",
-          "value": "Greek: phonology: fricativisation"
+          "id": "grc.p.v.ita.ει=η",
+          "value": "Greek: phonology: vowels: itacism: ει=η"
+        },
+        {
+          "id": "grc.p.v.ita.i=ει",
+          "value": "Greek: phonology: vowels: itacism: i=ει"
+        },
+        {
+          "id": "grc.p.v.monophth.-",
+          "value": "Greek: phonology: vowels: monophthongisation"
+        },
+        {
+          "id": "grc.p.v.monophth.αι",
+          "value": "Greek: phonology: vowels: monophthongisation: αι"
+        },
+        {
+          "id": "grc.p.v.monophth.dat",
+          "value": "Greek: phonology: vowels: monophthongisation: dative"
+        },
+        {
+          "id": "grc.p.v.monophth.αυ",
+          "value": "Greek: phonology: vowels: monophthongisation: αυ"
+        },
+        {
+          "id": "grc.p.v.quant.-",
+          "value": "Greek: phonology: vowels: quantity"
+        },
+        {
+          "id": "grc.p.v.quant.ο",
+          "value": "Greek: phonology: vowels: quantity: ο"
+        },
+        {
+          "id": "grc.p.v.quant.ε=η",
+          "value": "Greek: phonology: vowels: quantity: ε=η"
+        },
+        {
+          "id": "grc.p.v.quant.ε=αι",
+          "value": "Greek: phonology: vowels: quantity: ε=αι"
+        },
+        {
+          "id": "grc.p.v.quant.ει=ι",
+          "value": "Greek: phonology: vowels: quantity: ει=ι"
+        },
+        {
+          "id": "grc.p.v.quant.οι=υ",
+          "value": "Greek: phonology: vowels: quantity: ου=υ"
+        },
+        {
+          "id": "grc.p.dor.-",
+          "value": "Greek: phonology: Doric"
+        },
+        {
+          "id": "grc.p.dor.α=η.-",
+          "value": "Greek: phonology: Doric: α=η"
+        },
+        {
+          "id": "grc.p.dor.α=η.nom-fem-α",
+          "value": "Greek: phonology: Doric: α=η: nom-fem-α"
+        },
+        {
+          "id": "grc.p.dor.α=η.gen-fem-ασ",
+          "value": "Greek: phonology: Doric: α=η: gen-fem-ασ"
+        },
+        {
+          "id": "grc.p.dor.α=η.voc-fem-α",
+          "value": "Greek: phonology: Doric: α=η: voc-fem-α"
+        },
+        {
+          "id": "grc.p.dor.α=η.nom-masc-ασ",
+          "value": "Greek: phonology: Doric: α=η: nom-masc-ασ"
+        },
+        {
+          "id": "grc.p.dor.α=η.voc-masc-α",
+          "value": "Greek: phonology: Doric: α=η: voc-masc-α"
+        },
+        {
+          "id": "grc.p.dor.contr.-",
+          "value": "Greek: phonology: Doric: contraction"
+        },
+        {
+          "id": "grc.p.dor.contr.gen-pl-αν",
+          "value": "Greek: phonology: Doric: contraction: gen-pl-αν"
+        },
+        {
+          "id": "grc.p.dor.contr.gen-masc-α",
+          "value": "Greek: phonology: Doric: contraction: gen-masc-α"
+        },
+        {
+          "id": "grc.p.dor.contr.es-stem",
+          "value": "Greek: phonology: Doric: contraction: es-stem"
+        },
+        {
+          "id": "grc.p.dor.ω-ου",
+          "value": "Greek: phonology: Doric: ω-ου"
+        },
+        {
+          "id": "grc.p.dor.loss-syll.-",
+          "value": "Greek: phonology: Doric: loss-syllabicity"
+        },
+        {
+          "id": "grc.p.dor.loss-syll.ευς=εος",
+          "value": "Greek: phonology: Doric: loss-syllabicity: ευς=εος"
+        },
+        {
+          "id": "grc.p.dor.loss-syll.θευ=θεο",
+          "value": "Greek: phonology: Doric: loss-syllabicity: θευ=θεο"
+        },
+        {
+          "id": "grc.p.sync.-",
+          "value": "Greek: phonology: syncope"
+        },
+        {
+          "id": "grc.p.sync.ιον-ιος",
+          "value": "Greek: phonology: syncope: ιον-ιος"
+        },
+        {
+          "id": "grc.p.dor.apocope",
+          "value": "Greek: phonology: Doric: apocope"
+        },
+        {
+          "id": "grc.p.c.-",
+          "value": "Greek: phonology: consonants"
+        },
+        {
+          "id": "grc.p.c.fric",
+          "value": "Greek: phonology: consonants: fricativisation"
+        },
+        {
+          "id": "grc.p.c.deg.-",
+          "value": "Greek: phonology: consonants: degemination"
+        },
+        {
+          "id": "grc.p.c.deg.σ",
+          "value": "Greek: phonology: consonants: degemination: σ"
+        },
+        {
+          "id": "grc.p.c.deg.λ",
+          "value": "Greek: phonology: consonants: degemination: λ"
+        },
+        {
+          "id": "grc.p.c.deg.ν",
+          "value": "Greek: phonology: consonants: degemination: ν"
+        },
+        {
+          "id": "grc.p.c.deg.χ",
+          "value": "Greek: phonology: consonants: degemination: χ"
+        },
+        {
+          "id": "grc.p.c.h",
+          "value": "Greek: phonology: consonants: h"
+        },
+        {
+          "id": "lat.-",
+          "value": "Latin"
         },
         {
           "id": "lat.p.-",
-          "value": "phonology: Latin"
+          "value": "Latin: phonology:"
         },
         {
-          "id": "lat.p.fric",
-          "value": "Latin: phonology: fricativisation"
+          "id": "lat.p.v.-",
+          "value": "Latin: phonology: vowels"
         },
         {
-          "id": "lat.p.qt",
-          "value": "Latin: phonology: quantity"
+          "id": "lat.p.v.u=o",
+          "value": "Latin: phonology: vowels: u=o"
         },
         {
-          "id": "lat.p.epsilon-i",
-          "value": "Latin: phonology: epsilon=i"
+          "id": "lat.p.v.y=w",
+          "value": "Latin: phonology: vowels: υ=w"
         },
         {
-          "id": "lat.p.omicron-u",
-          "value": "Latin: phonology: omicron=u"
+          "id": "lat.p.v.quant.-",
+          "value": "Latin: phonology: vowels: quantity"
         },
         {
-          "id": "grc.dor.-",
-          "value": "Greek: Doric"
+          "id": "lat.p.c.-",
+          "value": "Latin: phonology: consonants"
         },
         {
-          "id": "grc.dor.a-h",
-          "value": "Greek: Doric: A=H"
+          "id": "lat.p.c.fric",
+          "value": "Latin: phonology: consonants: fricativisation"
         },
         {
-          "id": "grc.dor.sev",
-          "value": "Greek: Doric: severior"
+          "id": "lat.p.c.ns",
+          "value": "Latin: phonology: consonants: ns"
         },
         {
-          "id": "grc.dor.gen-masc-a",
-          "value": "Greek: Doric: gen-masc-a"
+          "id": "lat.p.c.nj",
+          "value": "Latin: phonology: consonants: nj"
         },
         {
-          "id": "grc.dor.gen-ios",
-          "value": "Greek: Doric: gen-ios"
+          "id": "grc.m.-",
+          "value": "Greek: morphology"
         },
         {
-          "id": "grc.dor.gen-eos",
-          "value": "Greek: Doric: gen-eos"
+          "id": "grc.m.noun.-",
+          "value": "Greek: morphology: nouns"
         },
         {
-          "id": "grc.dor.eu-eo",
-          "value": "Greek: Doric: eu=eo"
+          "id": "grc.m.noun.i-stem",
+          "value": "Greek: morphology: nouns: i-stem"
         },
         {
-          "id": "grc.dor.nom-fem-a",
-          "value": "Greek: Doric: nom-fem-a"
+          "id": "grc.m.noun.cons-stem",
+          "value": "Greek: morphology: nouns: cons-stem"
         },
         {
-          "id": "grc.dor.gen-fem-as",
-          "value": "Greek: Doric: gen-fem-as"
+          "id": "grc.m.p-nam.-",
+          "value": "Greek: morphology: personal-names"
         },
         {
-          "id": "lan-con.-",
-          "value": "language-contact"
+          "id": "grc.m.p-nam.gen-a",
+          "value": "Greek: morphology: personal-names: gen-α"
         },
         {
-          "id": "lan-con.grc.-",
-          "value": "language-contact: Greek"
+          "id": "grc.m.p-nam.gen-e",
+          "value": "Greek: morphology: personal-names: gen-η"
         },
         {
-          "id": "lan-con.grc.trf.-",
-          "value": "language-contact: Greek: transfer"
+          "id": "grc.m.p-nam.io",
+          "value": "Greek: morphology: personal-names: ιον-ιος"
         },
         {
-          "id": "lan-con.grc.trf.rom-names.-",
-          "value": "language-contact: Greek: transfer: Roman-names"
+          "id": "grc.m.pron.-",
+          "value": "Greek: morphology: pronouns"
         },
         {
-          "id": "lan-con.grc.trf.rom-names.fem-a",
-          "value": "language-contact: Greek: transfer: Roman-names: fem-a"
+          "id": "grc.m.pron.refl",
+          "value": "Greek: morphology: pronouns: reflexive"
         },
         {
-          "id": "lan-con.grc.trf.rom-names.masc-a",
-          "value": "language-contact: Greek: transfer: Roman-names: masc-a"
+          "id": "grc.m.verb.-",
+          "value": "Greek: morphology: verbs"
         },
         {
-          "id": "morph.-",
-          "value": "morphology"
+          "id": "grc.m.verb.aor-2nd-p",
+          "value": "Greek: morphology: verbs: aorist-2nd-person"
         },
         {
-          "id": "morph.grc.-",
-          "value": "morphology: Greek"
+          "id": "grc.m.verb.athem-inf",
+          "value": "Greek: morphology: verbs: athematic-infinitive"
         },
         {
-          "id": "morph.grc.rom-names-is",
-          "value": "morphology: Greek: Roman-names-is"
+          "id": "grc.m.verb.3rd-pl",
+          "value": "Greek: morphology: verbs: 3rd-plural"
         },
         {
-          "id": "lan-con.grc.calq.-",
-          "value": "language-contact: Greek: calque"
+          "id": "grc.m.prep.-",
+          "value": "Greek: morphology: prepositions"
         },
         {
-          "id": "lan-con.grc.trf.epi-conv.-",
-          "value": "language-contact: Greek: transfer: epigraphic-conventions"
+          "id": "grc.m.prep.poti",
+          "value": "Greek: morphology: prepositions: ποτι"
         },
         {
-          "id": "lan-con.grc.trf.epi-conv.abbr",
-          "value": "language-contact: Greek: transfer: epigraphic-conventions: abbreviations"
+          "id": "lat.m.-",
+          "value": "Latin: morphology"
         },
         {
-          "id": "lan-con.grc.transl.-",
-          "value": "language-contact: Greek: translation"
+          "id": "lat.m.noun.-",
+          "value": "Latin: morphology: nouns"
         },
         {
-          "id": "lan-con.grc.transl.form.-",
-          "value": "language-contact: Greek: translation: formula"
+          "id": "lat.m.noun.gen-enis",
+          "value": "Latin: morphology: nouns: gen-enis"
         },
         {
-          "id": "lan-con.grc.interf.-",
-          "value": "language-contact: Greek: interference"
+          "id": "grc.m-t-a.-",
+          "value": "Greek: mood-tense-aspect"
         },
         {
-          "id": "lan-con.grc.interf.y-o",
-          "value": "language-contact: Greek: interference: Y=O"
+          "id": "grc.m-t-a.pf-aor",
+          "value": "Greek: mood-tense-aspect: perfect-aorist"
         },
         {
-          "id": "lan-con.lat.-",
-          "value": "language-contact: Latin:"
+          "id": "grc.syn.-",
+          "value": "Greek: syntax"
         },
         {
-          "id": "lan-con.lat.calq.-",
-          "value": "language-contact: Latin: calque"
+          "id": "lst.syn.-",
+          "value": "Latin: syntax"
         },
         {
-          "id": "lan-con.lat.transl.-",
-          "value": "language-contact: Latin: translation"
+          "id": "lst.syn.case.-",
+          "value": "Latin: syntax: cases"
         },
         {
-          "id": "lan-con.lat.transl.form.-",
-          "value": "language-contact: Latin: translation: formula"
+          "id": "lst.syn.case.abl-dat",
+          "value": "Latin: syntax: cases: ablative-dative"
         },
         {
-          "id": "lan-con.lat.interf.-",
-          "value": "language-contact: Latin: interference"
+          "id": "lst.syn.case.gen-dat",
+          "value": "Latin: syntax: cases: genitive-dative"
+        },
+        {
+          "id": "grc.lex.-",
+          "value": "Greek: lexicon"
+        },
+        {
+          "id": "grc.lex.andokeia",
+          "value": "Greek: lexicon: ανδοκεια"
+        },
+        {
+          "id": "grc.lex.rektas",
+          "value": "Greek: lexicon: ρεκτας"
+        },
+        {
+          "id": "grc.lan-con.-",
+          "value": "Greek: language-contact"
+        },
+        {
+          "id": "grc.lan-con.m.-",
+          "value": "Greek: language-contact: morphology"
+        },
+        {
+          "id": "grc.lan-con.m.lat-f-a-nam",
+          "value": "Greek: language-contact: morphology: Latin-fem-a-names"
+        },
+        {
+          "id": "grc.lan-con.syn.-",
+          "value": "Greek: language-contact: syntax"
+        },
+        {
+          "id": "grc.lan-con.syn.c.-",
+          "value": "Greek: language-contact: syntax: calques"
+        },
+        {
+          "id": "grc.lan-con.syn.c.syn",
+          "value": "Greek: language-contact: syntax: calques: συν"
+        },
+        {
+          "id": "grc.lan-con.syn.w-o.-",
+          "value": "Greek: language-contact: syntax: word-order"
+        },
+        {
+          "id": "grc.lan-con.syn.w-o.v-fin",
+          "value": "Greek: language-contact: syntax: word-order: verb-final"
+        },
+        {
+          "id": "grc.lan-con.lex.-",
+          "value": "Greek: language-contact: lexicon"
+        },
+        {
+          "id": "grc.lan-con.lex.c.-",
+          "value": "Greek: language-contact: lexicon: calques"
+        },
+        {
+          "id": "grc.lan-con.lex.c.cal",
+          "value": "Greek: language-contact: lexicon: calques: calendar"
+        },
+        {
+          "id": "grc.lan-con.lex.c.off",
+          "value": "Greek: language-contact: lexicon: calques: offices"
+        },
+        {
+          "id": "grc.lan-con.lex.c.phr.-",
+          "value": "Greek: language-contact: lexicon: calques: phrases"
+        },
+        {
+          "id": "grc.lan-con.lex.c.ded",
+          "value": "Greek: language-contact: lexicon: calques: dedication"
+        },
+        {
+          "id": "grc.lan-con.lex.b.-",
+          "value": "Greek: language-contact: lexicon: borrowing"
+        },
+        {
+          "id": "grc.lan-con.lex.b.cal",
+          "value": "Greek: language-contact: lexicon: borrowing: calendar"
+        },
+        {
+          "id": "lat.lan-con.-",
+          "value": "Latin: language-contact"
+        },
+        {
+          "id": "lat.lan-con.p.-",
+          "value": "Latin: language-contact: phonology"
+        },
+        {
+          "id": "lat.lan-con.p.h",
+          "value": "Latin: language-contact: phonology: initial-h"
+        },
+        {
+          "id": "lat.lan-con.m.-",
+          "value": "Latin: language-contact: morphology"
+        },
+        {
+          "id": "lat.lan-con.m.p-nam.-",
+          "value": "Latin: language-contact: morphology: personal-names"
+        },
+        {
+          "id": "lat.lan-con.m.p-nam.grc-fem-e",
+          "value": "Latin: language-contact: morphology: personal-names: Greek-fem-e"
+        },
+        {
+          "id": "lat.lan-con.m.p-nam.grc-masc-a",
+          "value": "Latin: language-contact: morphology: personal-names: Greek-masc-a"
+        },
+        {
+          "id": "lat.lan-con.m.p-nam.grc-masc-es",
+          "value": "Latin: language-contact: morphology: personal-names: Greek-masc-es"
+        },
+        {
+          "id": "lat.lan-con.m.p-nam.grc-is",
+          "value": "Latin: language-contact: morphology: personal-names: Greek-is"
+        },
+        {
+          "id": "lat.lan-con.m.p-nam.suff-io",
+          "value": "Latin: language-contact: morphology: personal-names: suffix-io"
+        },
+        {
+          "id": "lat.lan-con.syn.-",
+          "value": "Latin: language-contact: syntax"
+        },
+        {
+          "id": "lat.lan-con.lex.-",
+          "value": "Latin: language-contact: lexicon"
+        },
+        {
+          "id": "lat.lan-con.lex.b.-",
+          "value": "Latin: language-contact: lexicon: borrowings"
+        },
+        {
+          "id": "lat.lan-con.lex.b.build",
+          "value": "Latin: language-contact: lexicon: borrowings: buildings"
+        },
+        {
+          "id": "grc.epi-cont.-",
+          "value": "Greek: epigraphic-contact"
+        },
+        {
+          "id": "grc.epi-cont.v-length",
+          "value": "Greek: epigraphic-contact: vowel-length"
+        },
+        {
+          "id": "grc.epi-cont.phr-abbr",
+          "value": "Greek: epigraphic-contact: phrase-abbreviation"
+        },
+        {
+          "id": "grc.epi-cont.nam-abbr",
+          "value": "Greek: epigraphic-contact: name-abbreviation"
+        },
+        {
+          "id": "grc.epi-cont.on-form",
+          "value": "Greek: epigraphic-contact: onomastic-formula"
+        },
+        {
+          "id": "lat.epi-cont.-",
+          "value": "Latin: epigraphic-contact"
+        },
+        {
+          "id": "lat.epi-cont.on-form-",
+          "value": "Latin: epigraphic-contact: onomastic-formula"
+        },
+        {
+          "id": "grc.unc.-",
+          "value": "Greek: uncertain"
+        },
+        {
+          "id": "grc.unc.poupl",
+          "value": "Greek: uncertain: Πουπλ"
+        },
+        {
+          "id": "grc.unc.ikosi",
+          "value": "Greek: uncertain: ικοσι"
+        },
+        {
+          "id": "grc.dial.-",
+          "value": "Greek: dialect"
+        },
+        {
+          "id": "grc.dial.dor",
+          "value": "Greek: dialect: Doric"
+        },
+        {
+          "id": "grc.msp.-",
+          "value": "Greek: mspellings"
+        },
+        {
+          "id": "grc.msp.phon",
+          "value": "Greek: mspellings: phonetic"
+        },
+        {
+          "id": "grc.msp.hyp",
+          "value": "Greek: mspellings: hypercorrection"
+        },
+        {
+          "id": "grc.msp.int",
+          "value": "Greek: mspellings: interference"
+        },
+        {
+          "id": "grc.msp.ban",
+          "value": "Greek: mspellings: banal"
+        },
+        {
+          "id": "grc.msp.unc",
+          "value": "Greek: mspellings: uncertain"
+        },
+        {
+          "id": "lat.msp.-",
+          "value": "Latin: mspellings"
+        },
+        {
+          "id": "lat.msp.phon",
+          "value": "Latin: mspellings: phonetic"
+        },
+        {
+          "id": "lat.msp.hyp",
+          "value": "Latin: mspellings: hypercorrection"
+        },
+        {
+          "id": "lat.msp.int",
+          "value": "Latin: mspellings: interference"
+        },
+        {
+          "id": "lat.msp.ban",
+          "value": "Latin: mspellings: banal"
+        },
+        {
+          "id": "lat.msp.unc",
+          "value": "Latin: mspellings: uncertain"
         }
       ]
     },
@@ -882,6 +1298,46 @@
           "value": "marble"
         },
         {
+          "id": "stone-2",
+          "value": "stone"
+        },
+        {
+          "id": "sandstone-502",
+          "value": "sandstone"
+        },
+        {
+          "id": "tuff-30",
+          "value": "tuff"
+        },
+        {
+          "id": "ceramic-643",
+          "value": "ceramic"
+        },
+        {
+          "id": "lead-108",
+          "value": "lead"
+        },
+        {
+          "id": "breccia-73",
+          "value": "breccia"
+        },
+        {
+          "id": "basalt-16",
+          "value": "basalt"
+        },
+        {
+          "id": "plaster-126",
+          "value": "plaster"
+        },
+        {
+          "id": "clay-131",
+          "value": "clay"
+        },
+        {
+          "id": "unknown-138",
+          "value": "unknown"
+        },
+        {
           "id": "-",
           "value": "---"
         }
@@ -896,7 +1352,7 @@
         },
         {
           "id": "statue-base-57",
-          "value": "statue-base"
+          "value": "statue base"
         },
         {
           "id": "slab-260",
@@ -908,11 +1364,11 @@
         },
         {
           "id": "altar-30",
-          "value": "slab"
+          "value": "altar"
         },
         {
           "id": "curse-tablet-266",
-          "value": "curse-tablet"
+          "value": "curse tablet"
         },
         {
           "id": "milestone-89",
@@ -933,6 +1389,66 @@
         {
           "id": "wall-416",
           "value": "wall"
+        },
+        {
+          "id": "architrave-119",
+          "value": "architrave"
+        },
+        {
+          "id": "base-53",
+          "value": "base"
+        },
+        {
+          "id": "stele-250",
+          "value": "stele"
+        },
+        {
+          "id": "lekanis",
+          "value": "lekanis"
+        },
+        {
+          "id": "tablet-255",
+          "value": "tablet"
+        },
+        {
+          "id": "plinth-1910",
+          "value": "plinth"
+        },
+        {
+          "id": "column-capital-63",
+          "value": "column capital"
+        },
+        {
+          "id": "mosaic-184",
+          "value": "mosaic"
+        },
+        {
+          "id": "tile-1402",
+          "value": "tile"
+        },
+        {
+          "id": "rock-face-210",
+          "value": "rock face"
+        },
+        {
+          "id": "altar-or-base-30",
+          "value": "altar or base"
+        },
+        {
+          "id": "ash-chest-79",
+          "value": "ash chest"
+        },
+        {
+          "id": "plinth-1910",
+          "value": "plinth"
+        },
+        {
+          "id": "brick-1788",
+          "value": "brick"
+        },
+        {
+          "id": "unknown-2",
+          "value": "unknown"
         },
         {
           "id": "-",
@@ -1042,128 +1558,140 @@
       "id": "orthography-tags@en",
       "entries": [
         {
-          "id": "grc.p.-",
-          "value": "phonology: Greek"
+          "id": "grc.-",
+          "value": "Greek"
         },
         {
-          "id": "grc.p.v.-",
-          "value": "Greek: phonology: vowels"
+          "id": "grc.ei=i",
+          "value": "Greek: ει=ι"
         },
         {
-          "id": "grc.p.v.itacism.-",
-          "value": "Greek: phonology: vowels: itacism"
+          "id": "grc.i=ei",
+          "value": "Greek: ι=ει"
         },
         {
-          "id": "grc.p.v.itacism.ei-i",
-          "value": "Greek: phonology: vowels: itacism: EI=I"
+          "id": "grc.h=ei",
+          "value": "Greek: η=ει"
         },
         {
-          "id": "grc.p.v.itacism.i-ei",
-          "value": "Greek: phonology: vowels: itacism: I=EI"
+          "id": "grc.ui=i",
+          "value": "Greek: υι=ι"
         },
         {
-          "id": "grc.p.v.itacism.h-ei",
-          "value": "Greek: phonology: vowels: itacism: H=EI"
+          "id": "grc.e=ai",
+          "value": "Greek: ε=αι"
         },
         {
-          "id": "grc.p.v.itacism.y-i",
-          "value": "Greek: phonology: vowels: itacism: Y=I"
+          "id": "grc.ο=w",
+          "value": "Greek: ο=ω"
         },
         {
-          "id": "grc.p.v.itacism.hi-ei",
-          "value": "Greek: phonology: vowels: itacism: HI=EI"
+          "id": "grc.oi=u",
+          "value": "Greek: οι=υ"
         },
         {
-          "id": "grc.p.v.monophth.-",
-          "value": "Greek: phonology: vowels: monophthongisation"
+          "id": "grc.e=h",
+          "value": "Greek: ε=η"
         },
         {
-          "id": "grc.p.v.monophth.e-ai",
-          "value": "Greek: phonology: vowels: monophthongisation: E=AI"
+          "id": "grc.a=e",
+          "value": "Greek: α=ε"
         },
         {
-          "id": "grc.p.v.monophth.aii-ai",
-          "value": "Greek: phonology: vowels: monophthongisation: AII=AI"
+          "id": "grc.ai=a",
+          "value": "Greek: αι=α"
         },
         {
-          "id": "grc.p.v.qt.-",
-          "value": "Greek: phonology: vowels: quantity"
+          "id": "grc.au=a",
+          "value": "Greek: αυ=α"
         },
         {
-          "id": "grc.p.v.qt.o-omega",
-          "value": "Greek: phonology: vowels: quantity: O=Ω"
+          "id": "grc.k=x",
+          "value": "Greek: κ=χ"
         },
         {
-          "id": "grc.p.c.-",
-          "value": "Greek: phonology: consonants"
+          "id": "grc.ss=s",
+          "value": "Greek: σσ=σ"
         },
         {
-          "id": "grc.p.c.fric.-",
-          "value": "Greek: phonology: consonants: fricativisation"
+          "id": "grc.ll=l",
+          "value": "Greek: λλ=λ"
         },
         {
-          "id": "grc.p.c.fric.b-oy",
-          "value": "Greek: phonology: consonants: fricativisation: B=OΥ"
+          "id": "grc.nn=n",
+          "value": "Greek: νν=ν"
         },
         {
-          "id": "grc.p.c.occl.-",
-          "value": "Greek: phonology: consonants: occlusives"
+          "id": "grc.x=kx",
+          "value": "Greek: χ=κχ"
         },
         {
-          "id": "grc.p.c.occl.d-t",
-          "value": "Greek: phonology: consonants: occlusives: Δ=Τ"
+          "id": "grc.d=t",
+          "value": "Greek: δ=τ"
         },
         {
-          "id": "lat.p.-",
-          "value": "phonology: Latin"
+          "id": "grc.u=l",
+          "value": "Greek: υ=λ"
         },
         {
-          "id": "lat.p.v.-",
-          "value": "Latin: phonology: vowels"
+          "id": "grc.teta=tath",
+          "value": "Greek: ε=α"
         },
         {
-          "id": "lat.p.v.qt.-",
-          "value": "Latin: phonology: vowels: quantity"
+          "id": "grc.iuo=iou",
+          "value": "Greek: ιυο=ιου"
         },
         {
-          "id": "lat.p.v.qt.e-longi",
-          "value": "Latin: phonology: vowels: quantity: E=ī"
+          "id": "grc.ei=ie",
+          "value": "Greek: ει=ιε"
         },
         {
-          "id": "lat.p.v.qt.e-longo",
-          "value": "Latin: phonology: vowels: quantity: E=ō"
+          "id": "lat.-",
+          "value": "Latin"
         },
         {
-          "id": "lat.p.v.qt.oy-o",
-          "value": "Latin: phonology: vowels: quantity: OY=O"
+          "id": "lat.e=i-long",
+          "value": "Latin: e=i-long"
         },
         {
-          "id": "lat.p.c.-",
-          "value": "Latin: phonology: consonants"
+          "id": "lat.ie=ei",
+          "value": "Latin: ie=ei"
         },
         {
-          "id": "lat.p.c.fric.-",
-          "value": "Latin: phonology: consonants: fricativisation"
+          "id": "lat.e=he",
+          "value": "Latin: e=he"
         },
         {
-          "id": "lat.p.c.fric.b-v",
-          "value": "Latin: phonology: consonants: fricativisation: B=V"
+          "id": "lat.e=i",
+          "value": "Latin: e=i"
         },
         {
-          "id": "lat.p.c.occl.-",
-          "value": "Latin: phonology: consonants: occlusives"
+          "id": "lat.b=v",
+          "value": "Latin: b=v"
         },
         {
-          "id": "lat.p.c.occl.p-b",
-          "value": "Latin: phonology: consonants: occlusives: Π=B"
+          "id": "lat.b=d",
+          "value": "Latin: b=d"
         },
         {
-          "id": "lat.p.c.nas.-",
-          "value": "Latin: phonology: consonants: nasals"
+          "id": "lat.xs=x",
+          "value": "Latin: xs=x"
         },
         {
-          "id": "lat.p.c.nas.coiug",
-          "value": "Latin: phonology: consonants: nasals: coiug=coniug"
+          "id": "lat.u=o",
+          "value": "Latin: u=o"
+        },
+        {
+          "id": "lat.rr=r",
+          "value": "Latin: rr=r"
+        },
+        {
+          "id": "lat.f=e",
+          "value": "Latin: f=e"
+        },
+        {
+          "id": "lat.is=i",
+          "value": "Latin: is=i"
         }
       ]
     },
