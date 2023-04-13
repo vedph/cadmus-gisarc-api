@@ -756,15 +756,15 @@
           "value": "Greek: phonology: vowels: itacism"
         },
         {
-          "id": "grc.p.v.ita.ει=ι",
+          "id": "grc.p.v.ita.ei=i",
           "value": "Greek: phonology: vowels: itacism: ει=ι"
         },
         {
-          "id": "grc.p.v.ita.ει=η",
+          "id": "grc.p.v.ita.ei=h",
           "value": "Greek: phonology: vowels: itacism: ει=η"
         },
         {
-          "id": "grc.p.v.ita.i=ει",
+          "id": "grc.p.v.ita.i=ei",
           "value": "Greek: phonology: vowels: itacism: i=ει"
         },
         {
@@ -772,7 +772,7 @@
           "value": "Greek: phonology: vowels: monophthongisation"
         },
         {
-          "id": "grc.p.v.monophth.αι",
+          "id": "grc.p.v.monophth.ai",
           "value": "Greek: phonology: vowels: monophthongisation: αι"
         },
         {
@@ -780,104 +780,85 @@
           "value": "Greek: phonology: vowels: monophthongisation: dative"
         },
         {
-          "id": "grc.p.v.monophth.αυ",
+          "id": "grc.p.v.monophth.au",
           "value": "Greek: phonology: vowels: monophthongisation: αυ"
         },
         {
-          "id": "grc.p.v.quant.-",
+          "id": "grc.p.v.qt.-",
           "value": "Greek: phonology: vowels: quantity"
         },
         {
-          "id": "grc.p.v.quant.ο",
+          "id": "grc.p.v.qt.o",
           "value": "Greek: phonology: vowels: quantity: ο"
         },
         {
-          "id": "grc.p.v.quant.ε=η",
+          "id": "grc.p.v.qt.e=h",
           "value": "Greek: phonology: vowels: quantity: ε=η"
         },
         {
-          "id": "grc.p.v.quant.ε=αι",
+          "id": "grc.p.v.qt.e=ai",
           "value": "Greek: phonology: vowels: quantity: ε=αι"
         },
         {
-          "id": "grc.p.v.quant.ει=ι",
+          "id": "grc.p.v.qt.ei=i",
           "value": "Greek: phonology: vowels: quantity: ει=ι"
         },
         {
-          "id": "grc.p.v.quant.οι=υ",
+          "id": "grc.p.v.qt.oi=u",
           "value": "Greek: phonology: vowels: quantity: ου=υ"
         },
         {
-          "id": "grc.p.dor.-",
-          "value": "Greek: phonology: Doric"
+          "id": "grc.p.v.a=h",
+          "value": "Greek: phonology: vowels: α=η"
+        },
+
+        {
+          "id": "grc.p.contr.-",
+          "value": "Greek: phonology: contraction"
         },
         {
-          "id": "grc.p.dor.α=η.-",
-          "value": "Greek: phonology: Doric: α=η"
+          "id": "grc.p.contr.gen-pl-an",
+          "value": "Greek: phonology: contraction: gen-pl-αν"
         },
         {
-          "id": "grc.p.dor.α=η.nom-fem-α",
-          "value": "Greek: phonology: Doric: α=η: nom-fem-α"
+          "id": "grc.p.contr.gen-masc-a",
+          "value": "Greek: phonology: contraction: gen-masc-α"
         },
         {
-          "id": "grc.p.dor.α=η.gen-fem-ασ",
-          "value": "Greek: phonology: Doric: α=η: gen-fem-ασ"
+          "id": "grc.p.contr.es-stem",
+          "value": "Greek: phonology: contraction: es-stem"
         },
         {
-          "id": "grc.p.dor.α=η.voc-fem-α",
-          "value": "Greek: phonology: Doric: α=η: voc-fem-α"
+          "id": "grc.p.w-ou",
+          "value": "Greek: phonology: ω-ου"
         },
         {
-          "id": "grc.p.dor.α=η.nom-masc-ασ",
-          "value": "Greek: phonology: Doric: α=η: nom-masc-ασ"
+          "id": "grc.p.loss-syll.-",
+          "value": "Greek: phonology: loss-syllabicity"
         },
         {
-          "id": "grc.p.dor.α=η.voc-masc-α",
-          "value": "Greek: phonology: Doric: α=η: voc-masc-α"
+          "id": "grc.p.loss-syll.eus=eos",
+          "value": "Greek: phonology: loss-syllabicity: ευς=εος"
         },
         {
-          "id": "grc.p.dor.contr.-",
-          "value": "Greek: phonology: Doric: contraction"
-        },
-        {
-          "id": "grc.p.dor.contr.gen-pl-αν",
-          "value": "Greek: phonology: Doric: contraction: gen-pl-αν"
-        },
-        {
-          "id": "grc.p.dor.contr.gen-masc-α",
-          "value": "Greek: phonology: Doric: contraction: gen-masc-α"
-        },
-        {
-          "id": "grc.p.dor.contr.es-stem",
-          "value": "Greek: phonology: Doric: contraction: es-stem"
-        },
-        {
-          "id": "grc.p.dor.ω-ου",
-          "value": "Greek: phonology: Doric: ω-ου"
-        },
-        {
-          "id": "grc.p.dor.loss-syll.-",
-          "value": "Greek: phonology: Doric: loss-syllabicity"
-        },
-        {
-          "id": "grc.p.dor.loss-syll.ευς=εος",
-          "value": "Greek: phonology: Doric: loss-syllabicity: ευς=εος"
-        },
-        {
-          "id": "grc.p.dor.loss-syll.θευ=θεο",
-          "value": "Greek: phonology: Doric: loss-syllabicity: θευ=θεο"
+          "id": "grc.p.loss-syll.theu=theo",
+          "value": "Greek: phonology: loss-syllabicity: θευ=θεο"
         },
         {
           "id": "grc.p.sync.-",
           "value": "Greek: phonology: syncope"
         },
         {
-          "id": "grc.p.sync.ιον-ιος",
-          "value": "Greek: phonology: syncope: ιον-ιος"
+          "id": "grc.p.sync.is=ios",
+          "value": "Greek: phonology: syncope: ις=ιος"
         },
         {
-          "id": "grc.p.dor.apocope",
-          "value": "Greek: phonology: Doric: apocope"
+          "id": "grc.p.sync.in=ion",
+          "value": "Greek: phonology: syncope: ιν=ιον"
+        },
+        {
+          "id": "grc.p.apocope",
+          "value": "Greek: phonology: apocope"
         },
         {
           "id": "grc.p.c.-",
@@ -892,19 +873,19 @@
           "value": "Greek: phonology: consonants: degemination"
         },
         {
-          "id": "grc.p.c.deg.σ",
+          "id": "grc.p.c.deg.s",
           "value": "Greek: phonology: consonants: degemination: σ"
         },
         {
-          "id": "grc.p.c.deg.λ",
+          "id": "grc.p.c.deg.l",
           "value": "Greek: phonology: consonants: degemination: λ"
         },
         {
-          "id": "grc.p.c.deg.ν",
+          "id": "grc.p.c.deg.n",
           "value": "Greek: phonology: consonants: degemination: ν"
         },
         {
-          "id": "grc.p.c.deg.χ",
+          "id": "grc.p.c.deg.ch",
           "value": "Greek: phonology: consonants: degemination: χ"
         },
         {
@@ -928,11 +909,11 @@
           "value": "Latin: phonology: vowels: u=o"
         },
         {
-          "id": "lat.p.v.y=w",
+          "id": "lat.p.v.upsilon=w",
           "value": "Latin: phonology: vowels: υ=w"
         },
         {
-          "id": "lat.p.v.quant.-",
+          "id": "lat.p.v.qt.-",
           "value": "Latin: phonology: vowels: quantity"
         },
         {
@@ -976,36 +957,40 @@
           "value": "Greek: morphology: personal-names: gen-α"
         },
         {
-          "id": "grc.m.p-nam.gen-e",
+          "id": "grc.m.p-nam.gen-h",
           "value": "Greek: morphology: personal-names: gen-η"
         },
         {
-          "id": "grc.m.p-nam.io",
-          "value": "Greek: morphology: personal-names: ιον-ιος"
+          "id": "grc.m.p-nam.is=ios",
+          "value": "Greek: morphology: personal-names: ις=ιος"
+        },
+        {
+          "id": "grc.m.p-nam.in=ion",
+          "value": "Greek: morphology: personal-names: ιν=ιον"
         },
         {
           "id": "grc.m.pron.-",
           "value": "Greek: morphology: pronouns"
         },
         {
-          "id": "grc.m.pron.refl",
-          "value": "Greek: morphology: pronouns: reflexive"
+          "id": "grc.m.pron.refl-autonta",
+          "value": "Greek: morphology: pronouns: reflexive-αυτοντα"
         },
         {
           "id": "grc.m.verb.-",
           "value": "Greek: morphology: verbs"
         },
         {
-          "id": "grc.m.verb.aor-2nd-p",
-          "value": "Greek: morphology: verbs: aorist-2nd-person"
+          "id": "grc.m.verb.aor-2nd-p-ses",
+          "value": "Greek: morphology: verbs: aorist-2nd-person-σες"
         },
         {
-          "id": "grc.m.verb.athem-inf",
-          "value": "Greek: morphology: verbs: athematic-infinitive"
+          "id": "grc.m.verb.athem-inf-mein",
+          "value": "Greek: morphology: verbs: athematic-infinitive-μειν"
         },
         {
-          "id": "grc.m.verb.3rd-pl",
-          "value": "Greek: morphology: verbs: 3rd-plural"
+          "id": "grc.m.verb.3rd-pl-nti",
+          "value": "Greek: morphology: verbs: 3rd-plural-ντι"
         },
         {
           "id": "grc.m.prep.-",
@@ -1064,7 +1049,7 @@
           "value": "Greek: lexicon: ανδοκεια"
         },
         {
-          "id": "grc.lex.rektas",
+          "id": "grc.lex.rhektas",
           "value": "Greek: lexicon: ρεκτας"
         },
         {
@@ -1088,8 +1073,8 @@
           "value": "Greek: language-contact: syntax: calques"
         },
         {
-          "id": "grc.lan-con.syn.c.syn",
-          "value": "Greek: language-contact: syntax: calques: συν"
+          "id": "grc.lan-con.syn.c.sun=kai",
+          "value": "Greek: language-contact: syntax: calques: συν=και"
         },
         {
           "id": "grc.lan-con.syn.w-o.-",
@@ -1236,52 +1221,52 @@
           "value": "Greek: dialect: Doric"
         },
         {
-          "id": "grc.msp.-",
-          "value": "Greek: mspellings"
+          "id": "grc.missp.-",
+          "value": "Greek: misspellings"
         },
         {
-          "id": "grc.msp.phon",
-          "value": "Greek: mspellings: phonetic"
+          "id": "grc.missp.phon",
+          "value": "Greek: misspellings: phonetic"
         },
         {
-          "id": "grc.msp.hyp",
-          "value": "Greek: mspellings: hypercorrection"
+          "id": "grc.missp.hyp",
+          "value": "Greek: misspellings: hypercorrection"
         },
         {
-          "id": "grc.msp.int",
-          "value": "Greek: mspellings: interference"
+          "id": "grc.missp.int",
+          "value": "Greek: misspellings: interference"
         },
         {
-          "id": "grc.msp.ban",
-          "value": "Greek: mspellings: banal"
+          "id": "grc.missp.ban",
+          "value": "Greek: misspellings: banal"
         },
         {
-          "id": "grc.msp.unc",
-          "value": "Greek: mspellings: uncertain"
+          "id": "grc.missp.unc",
+          "value": "Greek: misspellings: uncertain"
         },
         {
-          "id": "lat.msp.-",
-          "value": "Latin: mspellings"
+          "id": "lat.missp.-",
+          "value": "Latin: misspellings"
         },
         {
-          "id": "lat.msp.phon",
-          "value": "Latin: mspellings: phonetic"
+          "id": "lat.missp.phon",
+          "value": "Latin: misspellings: phonetic"
         },
         {
-          "id": "lat.msp.hyp",
-          "value": "Latin: mspellings: hypercorrection"
+          "id": "lat.missp.hyp",
+          "value": "Latin: misspellings: hypercorrection"
         },
         {
-          "id": "lat.msp.int",
-          "value": "Latin: mspellings: interference"
+          "id": "lat.missp.int",
+          "value": "Latin: misspellings: interference"
         },
         {
-          "id": "lat.msp.ban",
-          "value": "Latin: mspellings: banal"
+          "id": "lat.missp.ban",
+          "value": "Latin: misspellings: banal"
         },
         {
-          "id": "lat.msp.unc",
-          "value": "Latin: mspellings: uncertain"
+          "id": "lat.missp.unc",
+          "value": "Latin: misspellings: uncertain"
         }
       ]
     },
@@ -1977,7 +1962,7 @@
             "Sampson,James",
             "Voss,Francis"
           ],
-          "journals": [ "AJPh", "CJ", "CPh", "CQ", "IF" ]
+          "journals": ["AJPh", "CJ", "CPh", "CQ", "IF"]
         }
       },
       {
@@ -1996,8 +1981,8 @@
       {
         "id": "seed.it.vedph.comment",
         "options": {
-          "languages": [ "eng", "ita" ],
-          "categories": [ "language.phonology", "language.syntax", "history" ]
+          "languages": ["eng", "ita"],
+          "categories": ["language.phonology", "language.syntax", "history"]
         }
       },
       {
@@ -2027,8 +2012,8 @@
       {
         "id": "seed.it.vedph.index-keywords",
         "options": {
-          "indexIds": [ "persons", "places" ],
-          "languages": [ "eng", "deu", "ita", "fra", "spa" ]
+          "indexIds": ["persons", "places"],
+          "languages": ["eng", "deu", "ita", "fra", "spa"]
         }
       },
       {
@@ -2040,7 +2025,7 @@
       {
         "id": "seed.it.vedph.note",
         "options": {
-          "tags": [ "language", "history", "geography" ]
+          "tags": ["language", "history", "geography"]
         }
       },
       {
@@ -2057,8 +2042,8 @@
       {
         "id": "seed.fr.it.vedph.comment",
         "options": {
-          "languages": [ "eng", "ita" ],
-          "categories": [ "language.phonology", "language.syntax", "history" ]
+          "languages": ["eng", "ita"],
+          "categories": ["language.phonology", "language.syntax", "history"]
         }
       },
       {
@@ -2070,7 +2055,7 @@
       {
         "id": "seed.fr.it.vedph.orthography",
         "options": {
-          "tags": [ "ph.c.occl.", "ph.c.liq.", "ph.c.nas." ]
+          "tags": ["ph.c.occl.", "ph.c.liq.", "ph.c.nas."]
         }
       }
     ]
