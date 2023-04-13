@@ -176,6 +176,15 @@
           "colorKey": "E0C404",
           "groupKey": "text",
           "sortKey": "t"
+        },
+        {
+          "typeId": "it.vedph.token-text-layer",
+          "roleId": "fr.it.vedph.pin-links",
+          "name": "links",
+          "description": "Links to other DB entities.",
+          "colorKey": "AEC7D6",
+          "groupKey": "text",
+          "sortKey": "u"
         }
       ]
     },
@@ -528,6 +537,10 @@
         {
           "id": "fr.it.vedph.comment",
           "value": "comment fr."
+        },
+        {
+          "id": "fr.it.vedph.pin-links",
+          "value": "links fr."
         },
         {
           "id": "fr.it.vedph.epigraphy.ligatures",
