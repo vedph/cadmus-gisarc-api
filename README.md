@@ -80,6 +80,7 @@ The inscription ID should be equal to ISiciliy ID, which is the authoritative so
 
 ## History
 
+- 2023-04-26: updated thesauri.
 - 2023-04-22: updated packages.
 - 2023-04-13: added pin links fragment to profile.
 - 2023-04-12: updated thesauri.
