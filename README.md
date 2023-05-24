@@ -19,7 +19,7 @@ The GISARC project collects inscriptions from Sicily, so it has only a couple of
 
 ## Inscriptions
 
-The inscription ID should be equal to ISiciliy ID, which is the authoritative source for the texts of this project.
+The inscription ID should be equal to ISicily ID, which is the authoritative source for the texts of this project.
 
 (a) **general**:
 
