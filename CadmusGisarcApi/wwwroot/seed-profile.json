@@ -25,8 +25,8 @@
         },
         {
           "typeId": "it.vedph.pin-links",
-          "name": "site link",
-          "description": "Inscription's site'.",
+          "name": "links",
+          "description": "Inscription's links.",
           "colorKey": "408400",
           "groupKey": "general",
           "sortKey": "c"
@@ -706,6 +706,10 @@
           "value": "epigram"
         },
         {
+          "id": "votive-83",
+          "value": "votive"
+        },
+        {
           "id": "unknown-143",
           "value": "unknown"
         }
@@ -733,6 +737,10 @@
         {
           "id": "imp-late",
           "value": "late imperial"
+        },
+        {
+          "id": "-",
+          "value": "uncertain"
         }
       ]
     },
@@ -1182,6 +1190,14 @@
         {
           "id": "lst.syn.case.gen-dat",
           "value": "Latin: syntax: cases: genitive-dative"
+        },
+        {
+          "id": "lst.syn.case.temp-abl",
+          "value": "Latin: syntax: cases: temporal-ablative"
+        },
+        {
+          "id": "lst.syn.case.temp-acc",
+          "value": "Latin: syntax: cases: temporal-accusative"
         },
         {
           "id": "grc.lex.-",
@@ -1836,6 +1852,10 @@
           "value": "clay"
         },
         {
+          "id": "copper-113",
+          "value": "copper"
+        },
+        {
           "id": "unknown-138",
           "value": "unknown"
         },
@@ -2242,6 +2262,26 @@
         {
           "id": "lat.ll=l",
           "value": "Latin: ll=l"
+        },
+        {
+          "id": "lat.u=y",
+          "value": "Latin: u=y"
+        },
+        {
+          "id": "lat.o=e",
+          "value": "Latin: o=e"
+        },
+        {
+          "id": "lat.n=nt",
+          "value": "Latin: n=nt"
+        },
+        {
+          "id": "lat.c=g",
+          "value": "Latin: c=g"
+        },
+        {
+          "id": "lat.c=q",
+          "value": "Latin: c=q"
         }
       ]
     },
@@ -2255,6 +2295,19 @@
         {
           "id": "mm",
           "value": "mm"
+        }
+      ]
+    },
+    {
+      "id": "pin-link-settings@en",
+      "entries": [
+        {
+          "id": "switch-mode",
+          "value": "true"
+        },
+        {
+          "id": "by-type",
+          "value": "true"
         }
       ]
     }

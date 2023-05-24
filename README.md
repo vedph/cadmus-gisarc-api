@@ -2,7 +2,7 @@
 
 🐋 Quick Docker image build:
 
-    docker build . -t vedph2020/cadmus-gisarc-api:2.0.5 -t vedph2020/cadmus-gisarc-api:latest
+    docker build . -t vedph2020/cadmus-gisarc-api:3.0.0 -t vedph2020/cadmus-gisarc-api:latest
 
 (replace with the current version).
 
@@ -79,6 +79,12 @@ The inscription ID should be equal to ISiciliy ID, which is the authoritative so
 - bibliography
 
 ## History
+
+### 3.0.0
+
+- 2023-05-24:
+  - updated packages (breaking change in general parts introducing [AssertedCompositeId](https://github.com/vedph/cadmus-bricks-shell/blob/master/projects/myrmidon/cadmus-refs-asserted-ids/README.md#asserted-composite-id)).
+  - updated thesauri.
 
 ### 2.0.5
 
