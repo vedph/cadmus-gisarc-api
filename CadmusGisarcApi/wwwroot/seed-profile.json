@@ -1574,15 +1574,43 @@
           "value": "noun"
         },
         {
-          "id": "adj",
+          "id": "adj.-",
           "value": "adjective"
+        },
+        {
+          "id": "adj.p",
+          "value": "adjective: possessive"
+        },
+        {
+          "id": "adj.d",
+          "value": "adjective: demonstrative"
+        },
+        {
+          "id": "adj.a",
+          "value": "adjective: attributive"
+        },
+        {
+          "id": "adj.pr",
+          "value": "adjective: predicative"
+        },
+        {
+          "id": "adj.c.-",
+          "value": "adjective: comparison"
+        },
+        {
+          "id": "adj.c.comp",
+          "value": "adjective: comparison: comparative"
+        },
+        {
+          "id": "adj.c.sup",
+          "value": "adjective: comparison: superlative"
         },
         {
           "id": "pron.-",
           "value": "pronoun"
         },
         {
-          "id": "pron.prs",
+          "id": "pron.p",
           "value": "pronoun: personal"
         },
         {
@@ -1590,7 +1618,7 @@
           "value": "pronoun: reflexive"
         },
         {
-          "id": "pron.dem",
+          "id": "pron.d",
           "value": "pronoun: demonstrative"
         },
         {
@@ -1608,6 +1636,10 @@
         {
           "id": "adv.-",
           "value": "adverb"
+        },
+        {
+          "id": "nume",
+          "value": "numeral"
         },
         {
           "id": "num.-",
@@ -1638,12 +1670,16 @@
           "value": "case: dative"
         },
         {
-          "id": "case.a",
+          "id": "case.ac",
           "value": "case: accusative"
         },
         {
           "id": "case.v",
           "value": "case: vocative"
+        },
+        {
+          "id": "case.ab",
+          "value": "case: ablative"
         },
         {
           "id": "gend.-",
@@ -1666,19 +1702,19 @@
           "value": "verb"
         },
         {
-          "id": "pers.-",
+          "id": "per.-",
           "value": "person"
         },
         {
-          "id": "pers.1",
+          "id": "per.1",
           "value": "person: 1"
         },
         {
-          "id": "pers.2",
+          "id": "per.2",
           "value": "person: 2"
         },
         {
-          "id": "pers.3",
+          "id": "per.3",
           "value": "person: 3"
         },
         {
@@ -1686,19 +1722,19 @@
           "value": "mood"
         },
         {
-          "id": "mood.ind",
+          "id": "mood.i",
           "value": "mood: indicative"
         },
         {
-          "id": "mood.sub",
+          "id": "mood.s-",
           "value": "mood: subjunctive"
         },
         {
-          "id": "mood.opt",
+          "id": "mood.o-",
           "value": "mood: optative"
         },
         {
-          "id": "mood.impt",
+          "id": "mood.m",
           "value": "mood: imperative"
         },
         {
@@ -1706,11 +1742,11 @@
           "value": "verb form:"
         },
         {
-          "id": " v-form.inf",
+          "id": " v-form.n",
           "value": "verb form: infinitive"
         },
         {
-          "id": " v-form.part",
+          "id": " v-form.p",
           "value": "verb form: participle"
         },
         {
@@ -1722,15 +1758,15 @@
           "value": "voice"
         },
         {
-          "id": "voice.act",
+          "id": "voice.a",
           "value": "voice: active"
         },
         {
-          "id": "voice.mid",
+          "id": "voice.m",
           "value": "voice: middle"
         },
         {
-          "id": "voice.psv",
+          "id": "voice.p",
           "value": "voice: passive"
         },
         {
@@ -1738,15 +1774,15 @@
           "value": "tense"
         },
         {
-          "id": "tense.pres",
+          "id": "tense.p",
           "value": "tense: present"
         },
         {
-          "id": "tense.past",
+          "id": "tense.a",
           "value": "tense: past"
         },
         {
-          "id": "tense.fut",
+          "id": "tense.f",
           "value": "tense: future"
         },
         {
@@ -1754,15 +1790,15 @@
           "value": "aspect"
         },
         {
-          "id": "asp.aor",
+          "id": "asp.a",
           "value": "aspect: aoristic"
         },
         {
-          "id": "asp.impf",
+          "id": "asp.i",
           "value": "aspect: imperfective"
         },
         {
-          "id": "asp.pf",
+          "id": "asp.p",
           "value": "aspect: perfect"
         }
       ]
