@@ -2,7 +2,7 @@
 
 🐋 Quick Docker image build:
 
-    docker build . -t vedph2020/cadmus-gisarc-api:3.0.0 -t vedph2020/cadmus-gisarc-api:latest
+    docker build . -t vedph2020/cadmus-gisarc-api:3.0.1 -t vedph2020/cadmus-gisarc-api:latest
 
 (replace with the current version).
 
@@ -79,6 +79,8 @@ The inscription ID should be equal to ISicily ID, which is the authoritative sou
 - bibliography
 
 ## History
+
+### 3.0.1
 
 - 2023-06-12: updated thesauri.
 - 2023-06-02: updated packages.
