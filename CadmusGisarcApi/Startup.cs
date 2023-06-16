@@ -20,12 +20,12 @@ using Cadmus.Api.Services.Auth;
 using Cadmus.Api.Services.Messaging;
 using Cadmus.Api.Services;
 using Microsoft.AspNetCore.HttpOverrides;
-using Cadmus.Index.Sql;
 using Cadmus.Core.Storage;
 using Cadmus.Export.Preview;
-using Cadmus.Graph.MySql;
 using Cadmus.Graph;
 using Cadmus.Graph.Extras;
+using Cadmus.Graph.Ef.PgSql;
+using Cadmus.Graph.Ef;
 
 namespace CadmusGisarcApi
 {
@@ -227,23 +227,44 @@ namespace CadmusGisarcApi
             return new CadmusPreviewer(factory, repository);
         }
 
+        /// <summary>
+        /// Configures the item index services with the connection string template
+        /// from <c>ConnectionStrings:Index</c>, whose database name is defined in
+        /// <c>DatabaseNames:Data</c>.
+        /// </summary>
+        /// <param name="services">The services.</param>
         private void ConfigureIndexServices(IServiceCollection services)
         {
-            // item index factory provider
-            string indexCS = string.Format(
-                Configuration.GetConnectionString("Index")!,
+            // item index factory provider (from ConnectionStrings/Index)
+            string cs = string.Format(Configuration.GetConnectionString("Index")!,
                 Configuration.GetValue<string>("DatabaseNames:Data"));
 
             services.AddSingleton<IItemIndexFactoryProvider>(_ =>
-                new StandardItemIndexFactoryProvider(indexCS));
+                new StandardItemIndexFactoryProvider(cs));
+        }
 
-            // graph repository
+        /// <summary>
+        /// Configures the item graph services with the connection string template
+        /// from <c>ConnectionStrings:Graph</c> (falling back to <c>:Index</c> if
+        /// not found), whose database name is defined in <c>DatabaseNames:Data</c>
+        /// plus suffix <c>-graph</c>.
+        /// </summary>
+        /// <param name="services">The services.</param>
+        private void ConfigureGraphServices(IServiceCollection services)
+        {
+            string cs = string.Format(Configuration.GetConnectionString("Graph")
+                ?? Configuration.GetConnectionString("Index")!,
+                Configuration.GetValue<string>("DatabaseNames:Data") + "-graph");
+
+            services.AddSingleton<IItemGraphFactoryProvider>(_ =>
+                new StandardItemGraphFactoryProvider(cs));
+
             services.AddSingleton<IGraphRepository>(_ =>
             {
-                var repository = new MySqlGraphRepository();
-                repository.Configure(new SqlOptions
+                var repository = new EfPgSqlGraphRepository();
+                repository.Configure(new EfGraphRepositoryOptions
                 {
-                    ConnectionString = indexCS
+                    ConnectionString = cs
                 });
                 return repository;
             });
@@ -251,12 +272,13 @@ namespace CadmusGisarcApi
             // graph updater
             services.AddTransient<GraphUpdater>(provider =>
             {
+                IRepositoryProvider rp = provider.GetService<IRepositoryProvider>()!;
                 return new(provider.GetService<IGraphRepository>()!)
                 {
                     // we want item-eid as an additional metadatum, derived from
                     // eid in the role-less MetadataPart of the item, when present
                     MetadataSupplier = new MetadataSupplier()
-                        .SetCadmusRepository(provider.GetService<ICadmusRepository>())
+                        .SetCadmusRepository(rp.CreateRepository())
                         .AddItemEid()
                 };
             });
@@ -324,6 +346,7 @@ namespace CadmusGisarcApi
 
             // index and graph
             ConfigureIndexServices(services);
+            ConfigureGraphServices(services);
 
             // previewer
             services.AddSingleton(p => GetPreviewer(p));
