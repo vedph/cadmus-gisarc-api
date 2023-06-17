@@ -2,7 +2,7 @@
 
 🐋 Quick Docker image build:
 
-    docker build . -t vedph2020/cadmus-gisarc-api:3.0.1 -t vedph2020/cadmus-gisarc-api:latest
+    docker build . -t vedph2020/cadmus-gisarc-api:4.0.0 -t vedph2020/cadmus-gisarc-api:latest
 
 (replace with the current version).
 
@@ -82,7 +82,7 @@ The inscription ID should be equal to ISicily ID, which is the authoritative sou
 
 ### 4.0.0
 
-- 2023-06-16: **breaking changes** for index/graph refactoring. See the [documentation page](https://myrmex.github.io/overview/cadmus/dev/history/b-rdbms).
+- 2023-06-17: **breaking changes** for index/graph refactoring. See the [documentation page](https://myrmex.github.io/overview/cadmus/dev/history/b-rdbms).
 
 ### 3.0.1
 
