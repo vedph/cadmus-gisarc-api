@@ -80,6 +80,9 @@ The inscription ID should be equal to ISicily ID, which is the authoritative sou
 
 ## History
 
+- 2023-11-08: updated thesauri.
+- 2023-11-07: updated packages.
+
 ### 4.0.0
 
 - 2023-06-17: **breaking changes** for index/graph refactoring. See the [documentation page](https://myrmex.github.io/overview/cadmus/dev/history/b-rdbms).
