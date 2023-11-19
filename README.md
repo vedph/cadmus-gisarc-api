@@ -80,6 +80,7 @@ The inscription ID should be equal to ISicily ID, which is the authoritative sou
 
 ## History
 
+- 2023-11-19: ⚠️ upgraded to .NET 8.
 - 2023-11-08: updated thesauri.
 - 2023-11-07: updated packages.
 
