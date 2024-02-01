@@ -12,10 +12,11 @@ This API uses core components from the following Cadmus libraries:
 - [epigraphy](https://github.com/vedph/cadmus-epigraphy)
 - [geography](https://github.com/vedph/cadmus-geo)
 
-The GISARC project collects inscriptions from Sicily, so it has only a couple of item types:
+The GISARC project collects inscriptions from Sicily, so it has only 3 item types:
 
-- the inscription itself;
-- the site where the inscription was found.
+- the **inscription** itself;
+- the **site** where the inscription was found;
+- the **formulas** used in inscriptions.
 
 ## Inscriptions
 
@@ -23,60 +24,88 @@ The inscription ID should be equal to ISicily ID, which is the authoritative sou
 
 (a) **general**:
 
-- external IDs\*: all the IDs linked to the inscription (ISicily and eventually others).
-- metadata: general purpose metadata.
-- pin links: link to the site containing the inscription, if any. The site must be a site item with a metadata part having a metadatum named `eid` equal to the human-friendly ID we want to use to identify it in order to link it to inscriptions.
-- geographic location(s)\*. This is used to pinpoint the inscription on a map. The link to a site is managed via the pin links part.
-- date\*.
+- external IDs\* (`it.vedph.external-ids`): all the IDs linked to the inscription (ISicily and eventually others).
+- metadata (`it.vedph.metadata`): general purpose metadata.
+- pin links (`it.vedph.pin-links`): link to the site containing the inscription, if any. The site must be a site item with a metadata part having a metadatum named `eid` equal to the human-friendly ID we want to use to identify it in order to link it to inscriptions.
+- geographic location(s)\* (`it.vedph.geo.asserted-locations`). This is used to pinpoint the inscription on a map. The link to a site is managed via the pin links part.
+- date\* (`it.vedph.historical-date`).
 
 (b) **epigraphy**:
 
-- support.
-- writing.
+- support (`it.vedph.epigraphy.support`).
+- writing (`it.vedph.epigraphy.writing`).
 
 (c) **classification**:
 
-- categories\*: general thematic tags from a taxonomy.
-- categories for periods: chronological periods categories.
-- index keywords: multiple-language keywords which can be grouped under several sections ("indexes").
+- categories\* (`it.vedph.categories:categories`): general thematic tags from a taxonomy.
+- categories for periods (`it.vedph.categories:periods`): chronological periods categories.
+- index keywords (`it.vedph.index-keywords`): multiple-language keywords which can be grouped under several sections ("indexes").
 
 (d) **comment**:
 
-- comment: generic comment.
-- note: free text note. Might be useful for redactional purposes.
+- comment (`it.vedph.comment`): generic comment.
+- note (`it.vedph.note`): free text note. Might be useful for redactional purposes.
 
 (e) **references**:
 
-- references: short documentary references.
-- bibliography.
+- references (`it.vedph.doc-references`): short documentary references.
+- bibliography (`it.vedph.bibliography`).
 
 (f) **text**:
 
-- text: text or a part of it when required.
-- apparatus layer: critical apparatus.
-- orthography layer: can be used to annotate and categorize linguistic phenomena reflected in orthography.
-- ligatures layer: can be used to annotate ligatures in text.
-- comment layer: can be used to comment specific words of the text.
-- chronology layer: can be used to mark specific words of the text (designating battles, priesthoods, magistrates, etc.) as related to a datation.
+- text (`it.vedph.token-text`): text or a part of it when required.
+- apparatus layer (`fr.it.vedph.apparatus`): critical apparatus.
+- orthography layer (`fr.it.vedph.orthography`): can be used to annotate and categorize linguistic phenomena reflected in orthography.
+- ligatures layer (`fr.it.vedph.epigraphy.ligatures`): can be used to annotate ligatures in text.
+- comment layer (`fr.it.vedph.comment`): can be used to comment specific words of the text.
+- chronology layer (`fr.it.vedph.chronology`): can be used to mark specific words of the text (designating battles, priesthoods, magistrates, etc.) as related to a datation.
+- pin links layer (`fr.it.vedph.pin-links`)
 
 ## Sites
 
 (a) **general**:
 
-- toponyms\*: the site's toponym(s).
-- location\*: geographic location. This is used to pinpoint the site on a map, as a point (representing its conventionally defined center) and eventually also as a region (defined with shapes like polygons).
-- metadata\*: the site's metadata. This should at least include a `eid` metadatum whose value is the human-friendly ID used to link inscriptions to sites.
-- external IDs.
+- toponyms\* (`it.vedph.geo.asserted-toponyms`): the site's toponym(s).
+- location\* (`it.vedph.geo.asserted-locations`): geographic location. This is used to pinpoint the site on a map, as a point (representing its conventionally defined center) and eventually also as a region (defined with shapes like polygons).
+- metadata\* (`it.vedph.metadata`): the site's metadata. This should at least include a `eid` metadatum whose value is the human-friendly ID used to link inscriptions to sites.
+- external IDs (`it.vedph.external-ids`).
 
 (b) **comment**:
 
-- comment
-- note
+- comment (`it.vedph.comment`)
+- note (`it.vedph.note`)
 
 (c) **references**:
 
-- references
-- bibliography
+- references (`it.vedph.doc-references`)
+- bibliography (`it.vedph.bibliography`)
+
+## Formulas
+
+(a) **formula**:
+
+- formula patterns (`it.vedph.epigraphy.formula-patterns`)
+
+(b) **classification**:
+
+- external IDs (`it.vedph.external-ids`).
+- metadata (`it.vedph.metadata`)
+- categories (`it.vedph.categories:formular`)
+- keywords (`it.vedph.index-keywords`)
+
+(c) **placement**:
+
+- date (`it.vedph.historical-date`)
+
+(d) **general**:
+
+- note (`it.vedph.note`)
+- comment (`it.vedph.comment`)
+
+(e) **references**:
+
+- references (`it.vedph.doc-references`)
+- bibliography (`it.vedph.bibliography`)
 
 ## History
 
