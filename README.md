@@ -109,6 +109,7 @@ The inscription ID should be equal to ISicily ID, which is the authoritative sou
 
 ## History
 
+- 2024-05-22: updated packages.
 - 2024-02-01:
   - updated packages.
   - refactored logging.
