@@ -15,9 +15,9 @@
 	  <PackageReference Include="Cadmus.Api.Models" Version="9.0.5" />
 	  <PackageReference Include="Cadmus.Api.Services" Version="9.0.5" />
 	  <PackageReference Include="Cadmus.Graph.Extras" Version="7.0.3" />
-	  <PackageReference Include="Cadmus.Seed.Epigraphy.Parts" Version="3.0.2" />
+	  <PackageReference Include="Cadmus.Seed.Epigraphy.Parts" Version="3.0.3" />
 	  <PackageReference Include="Cadmus.Seed.General.Parts" Version="6.1.0" />
-	  <PackageReference Include="Cadmus.Seed.Geo.Parts" Version="3.0.2" />
+	  <PackageReference Include="Cadmus.Seed.Geo.Parts" Version="3.0.3" />
 	  <PackageReference Include="Cadmus.Seed.Philology.Parts" Version="8.2.0" />
 	  <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.5" />
 	  <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="8.0.5" />
