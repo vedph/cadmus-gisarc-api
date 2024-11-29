@@ -109,6 +109,9 @@ The inscription ID should be equal to ISicily ID, which is the authoritative sou
 
 ## History
 
+### 6.0.0
+
+- 2024-11-29: ⚠️ upgraded to .NET 9.
 - 2024-09-07: updated packages.
 - 2024-05-24: updated packages.
 - 2024-05-22: updated packages.
